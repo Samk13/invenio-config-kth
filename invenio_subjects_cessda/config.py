@@ -1,3 +1,4 @@
+"""Voc data."""
 urls = [
     {
         "name": "aggregationmethod",
