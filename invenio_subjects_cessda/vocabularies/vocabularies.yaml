@@ -1,0 +1,7 @@
+subjects:
+  pid-type: sub
+  schemes:
+    - id: CESSDA controlled vocabularies
+      data-file: cessda_voc.yaml
+      name: CESSDA
+      uri: "https://vocabularies.cessda.eu/"

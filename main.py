@@ -1,12 +1,5 @@
-import asyncio
-import json
 from urllib.parse import urlparse, urlunparse
 
-import aiohttp
-
-from invenio_subjects_cessda.config import urls
-
-result = []
 
 # cleanup data
 def fix_url(url_in):
@@ -19,23 +12,6 @@ def fix_url(url_in):
             path=new_path
         )
     return urlunparse(new_url)
-
-
-# Data fetching
-async def fetch(session, url_obj):
-    """fetch API calls"""
-    async with session.get(url_obj["endpoint"]) as res:
-        data = await res.json()
-        resp = dict(name=url_obj["name"], data=data)
-        result.append(resp)
-
-
-async def get_data():
-    """gather workers"""
-    async with aiohttp.ClientSession() as session:
-        tasks = [fetch(session, url) for url in urls]
-        await asyncio.gather(*tasks)
-
 
 def main():
     """main entry point"""

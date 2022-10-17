@@ -1,4 +1,4 @@
-"""Voc data."""
+"""CESSDA vocabularies endpoints"""
 urls = [
     {
         "name": "aggregationmethod",

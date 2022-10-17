@@ -1,46 +1,5 @@
 [
   {
-    "name": "CESSDAPersistentIdentifierTypes",
-    "data": [
-      {
-        "id": 8987,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes_[CODE]?v=1.0",
-        "notation": "ARK",
-        "title": "ARK",
-        "definition": "Archival Resource Key",
-        "position": 0,
-        "deprecated": false
-      },
-      {
-        "id": 8986,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes_[CODE]?v=1.0",
-        "notation": "DOI",
-        "title": "DOI",
-        "definition": "Digital Object Identifier",
-        "position": 1,
-        "deprecated": false
-      },
-      {
-        "id": 8988,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes_[CODE]?v=1.0",
-        "notation": "Handle",
-        "title": "Handle",
-        "definition": "The Handle system. Includes ePIC Handles.",
-        "position": 2,
-        "deprecated": false
-      },
-      {
-        "id": 8989,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes_[CODE]?v=1.0",
-        "notation": "URN",
-        "title": "URN",
-        "definition": "Universal Resource Name",
-        "position": 3,
-        "deprecated": false
-      }
-    ]
-  },
-  {
     "name": "TimeZone",
     "data": [
       {
@@ -406,129 +365,262 @@
     ]
   },
   {
-    "name": "TypeofTranslationMethod",
+    "name": "NumericType",
     "data": [
       {
-        "id": 15610,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
-        "notation": "SingleTranslation",
-        "title": "Single translation",
-        "definition": "A single translator produces one translation. Use this broader term if the translator makes the decisions about the final version, if it is not known who makes the final decisions, or if the review process is not explained in either of the narrower terms.",
+        "id": 8221,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
+        "notation": "Integer",
+        "title": "Integer",
+        "definition": "Whole numbers,  the infinite set of integers, no minimum or maximum value.  An integer datatype corresponding to the W3C XML Schema's xs:integer datatype.",
+        "previousConcept": 4524,
         "position": 0,
         "deprecated": false
       },
       {
-        "id": 15611,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
-        "notation": "SingleTranslation.IndividualReview",
-        "title": "Single translation: Individual review",
-        "definition": "A single translator produces one translation. Another individual reviews the translation, possibly in consultation with the translator. There may be more than one review round and different individual reviewers in each round.  An  adjudicator (possibly a reviewer) approves the final version.",
-        "parent": "SingleTranslation",
+        "id": 8227,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
+        "notation": "Int",
+        "title": "Int ",
+        "definition": "Whole numbers in the range -2147483648 .. 2147483647. An integer datatype corresponding to the W3C XML Schema's xs:int datatype.",
+        "previousConcept": 4525,
         "position": 1,
         "deprecated": false
       },
       {
-        "id": 15612,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
-        "notation": "SingleTranslation.CommitteeReview",
-        "title": "Single translation: Committee review",
-        "definition": "A single translator produces one translation. A committee, possibly including the translator, reviews it and approves the final version. There may be more than one review round. In survey translation, the committee may include survey, domain and language experts.",
-        "parent": "SingleTranslation",
+        "id": 8224,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
+        "notation": "Long",
+        "title": "Long",
+        "definition": "Whole numbers in the range -9223372036854775808 .. 9223372036854775807. A numeric datatype corresponding to the W3C XML Schema's xs:long datatype.",
+        "previousConcept": 4526,
         "position": 2,
         "deprecated": false
       },
       {
-        "id": 15613,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
-        "notation": "SplitTranslation",
-        "title": "Split translation",
-        "definition": "Two or more translators produce one translation by splitting up a source text (for example, a questionnaire) into subsections and each translating a subsection. Use this broader term if the translators decide on the final version amongst themselves, if it is not known who makes the final decisions or if the review process is not explained in either of the narrower terms.",
+        "id": 8225,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
+        "notation": "Short",
+        "title": "Short",
+        "definition": "Whole numbers in the range -32768 .. 32767. A numeric datatype corresponding to the W3C XML Schema's xs:short datatype.",
+        "previousConcept": 4527,
         "position": 3,
         "deprecated": false
       },
       {
-        "id": 15614,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
-        "notation": "SplitTranslation.IndividualReview",
-        "title": "Split translation: Individual review",
-        "definition": "Two or more translators produce one translation by splitting up a source text (for example, a questionnaire) into subsections and each translating a subsection. An individual reviews the whole translation, possibly in consultation with the translators. There may be more than one review round and different individual reviewers in each round. An adjudicator (possibly a reviewer) approves the final version.",
-        "parent": "SplitTranslation",
+        "id": 8220,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
+        "notation": "Decimal",
+        "title": "Decimal",
+        "definition": "A subset of real numbers, which can be represented by a finite-length sequence of decimal digits (0-9) separated by a period as a decimal indicator. An optional leading sign is allowed. If the sign is omitted, \"+\" is assumed. Leading and trailing zeroes are optional. If the fractional part is zero, the period and following zero(es) can be omitted. For example: -1.23, 12678967.543233, +100000.00, 210. A numeric datatype corresponding to the W3C XML Schema's xs:decimal datatype.",
+        "previousConcept": 4528,
         "position": 4,
         "deprecated": false
       },
       {
-        "id": 15615,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
-        "notation": "SplitTranslation.CommitteeReview",
-        "title": "Split translation: Committee review",
-        "definition": "Two or more translators produce one translation by splitting up a source text (for example, a questionnaire) into subsections and each translating a subsection. A committee, possibly including the translators, reviews the whole translation and approves the final version. There may be more than one review round. In survey translation, the committee may include survey, domain and language experts.",
-        "parent": "SplitTranslation",
+        "id": 8229,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
+        "notation": "Float",
+        "title": "Float",
+        "definition": "Single-precision 32-bit floating point type: The basic value space of float consists of the values m*2^e, where m is an integer whose absolute value is less than 2^24, and e is an integer between -149 and 104, inclusive. In addition, it also contains the following three special values: positive and negative infinity and not-a-number (NaN). The special values positive and negative infinity and not-a-number have lexical representations INF, -INF and NaN, respectively. Lexical representations for zero may take a positive or negative sign. For example, -1E4, 1267.43233E12, 12.78e-2, 12 , -0, 0 and INF are all legal literals for float. A numeric datatype corresponding to the W3C XML Schema's xs:float datatype.",
+        "previousConcept": 4529,
         "position": 5,
         "deprecated": false
       },
       {
-        "id": 15616,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
-        "notation": "ParallelTranslations",
-        "title": "Parallel translations",
-        "definition": "Two or more translators each produce a separate,  independent  translation of a whole text. Use this broader term if the  translators decide on a final version amongst themselves, if it is not known who makes the final decisions or if the review process is not described in either of the narrower terms.",
+        "id": 8223,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
+        "notation": "Double",
+        "title": "Double",
+        "definition": "Double-precision 64-bit floating point type. The basic value space of double consists of the values m*2^e, where m is an integer whose absolute value is less than 2^53, and e is an integer between -1075 and 970, inclusive. In addition to the basic value space described above, the value space of double also contains the following three special values: positive and negative infinity and not-a-number (NaN). The special values positive and negative infinity and not-a-number have lexical representations INF, -INF and NaN, respectively. Lexical representations for zero may take a positive or negative sign. For example, -1E4, 1267.43233E12, 12.78e-2, 12 , -0, 0 and INF are all legal literals for double. A numeric datatype corresponding to the W3C XML Schema's xs:double datatype.",
+        "previousConcept": 4530,
         "position": 6,
         "deprecated": false
       },
       {
-        "id": 15617,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
-        "notation": "ParallelTranslations.IndividualReview",
-        "title": "Parallel translations: Individual review",
-        "definition": "Two or more translators each produce a separate,  independent  translation of a whole text. An individual reviews all the translations and makes decisions on the final version, possibly in consultation with the translators. There may be more than one review round and different individual reviewers in each round. An adjudicator (possibly a reviewer) approves the final version.",
-        "parent": "ParallelTranslations",
+        "id": 8228,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
+        "notation": "Count",
+        "title": "Count",
+        "definition": "Ordinal number of objects in a finite set, discrete. A simple incrementing Integer type. When using in DDI-L, the \"isSequence\" facet must be set to true, and the \"interval\" facet must be set to \"1\".",
+        "previousConcept": 4531,
         "position": 7,
         "deprecated": false
       },
       {
-        "id": 15618,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
-        "notation": "ParallelTranslations.CommitteeReview",
-        "title": "Parallel translations: Committee review",
-        "definition": "Two or more translators each produce a separate, independent  translation of a whole text. A committee, possibly including the translators, reviews all the translations, and makes decisions on the final version. There may be more than one review round. In survey translation, the committee may include survey, domain and language experts.",
-        "parent": "ParallelTranslations",
+        "id": 8222,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
+        "notation": "Incremental",
+        "title": "Incremental",
+        "definition": "A value that increases continuously and infinitely by a given amount. Use of this term in DDI-L indicates that the value increases by the amount provided in the \"interval\" facet; the \"isSequence\" facet will be set to \"true\".",
+        "previousConcept": 4532,
         "position": 8,
         "deprecated": false
       },
       {
-        "id": 15619,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
-        "notation": "SameLanguageAdaptation",
-        "title": "Same language adaptation",
-        "definition": "A country or region uses the final translation of another country or region sharing the same language as the basis for their own translation. Some of the content of the original translation is modified to reflect linguistic, cultural, socio-economic or political differences. If needed, this term may be used alongside other relevant terms from this list.",
+        "id": 8226,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
+        "notation": "Other",
+        "title": "Other",
+        "definition": "Use if the numeric type is known, but not found in the list.",
+        "previousConcept": 4533,
+        "position": 9,
+        "deprecated": false
+      }
+    ]
+  },
+  {
+    "name": "aggregationmethod",
+    "data": [
+      {
+        "id": 8201,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
+        "notation": "Sum",
+        "title": "Sum",
+        "definition": "A value obtained as a result of adding two or more numbers (items/amounts).",
+        "previousConcept": 2631,
+        "position": 0,
+        "deprecated": false
+      },
+      {
+        "id": 8203,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
+        "notation": "ArithmeticMean",
+        "title": "Arithmetic mean",
+        "definition": "Mathematical average of a set of values. The mean is calculated by adding up two or more values and dividing the total by their number. In social/political science, it is usually the sum of the measurements divided by the number of subjects, or cases.",
+        "previousConcept": 2632,
+        "position": 1,
+        "deprecated": false
+      },
+      {
+        "id": 8206,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
+        "notation": "Count",
+        "title": "Count",
+        "definition": "Total number of units in a group of items.",
+        "previousConcept": 2633,
+        "position": 2,
+        "deprecated": false
+      },
+      {
+        "id": 8209,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
+        "notation": "Mode",
+        "title": "Mode",
+        "definition": "The value that appears most often in a set of values.",
+        "previousConcept": 2634,
+        "position": 3,
+        "deprecated": false
+      },
+      {
+        "id": 8208,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
+        "notation": "Median",
+        "title": "Median",
+        "definition": "The middle value in a series of values arranged sequentially from smallest to largest.",
+        "previousConcept": 2635,
+        "position": 4,
+        "deprecated": false
+      },
+      {
+        "id": 8207,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
+        "notation": "Maximum",
+        "title": "Maximum",
+        "definition": "The highest value attained or recorded.",
+        "previousConcept": 2636,
+        "position": 5,
+        "deprecated": false
+      },
+      {
+        "id": 8205,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
+        "notation": "Minimum",
+        "title": "Minimum",
+        "definition": "The lowest value attained or recorded.",
+        "previousConcept": 2637,
+        "position": 6,
+        "deprecated": false
+      },
+      {
+        "id": 8199,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
+        "notation": "Percent",
+        "title": "Percent",
+        "definition": "The number of parts out of 100. In mathematics, a percentage is a number of ratio expressed as a fraction of 100. Percentages are used to express how large one quantity is relative to another quantity.",
+        "previousConcept": 2638,
+        "position": 7,
+        "deprecated": false
+      },
+      {
+        "id": 8202,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
+        "notation": "CumulativePercent",
+        "title": "Cumulative percent",
+        "definition": "The total of a frequency and all frequencies below it in a frequency distribution; the \"running total\" of frequencies [the maximum value is 100%].",
+        "previousConcept": 2639,
+        "position": 8,
+        "deprecated": false
+      },
+      {
+        "id": 8200,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
+        "notation": "PercentileRank",
+        "title": "Percentile rank",
+        "definition": "The percentile rank of a item is the percentage of items in its frequency distribution which are lower [cannot reach 100%].",
+        "previousConcept": 2640,
         "position": 9,
         "deprecated": false
       },
       {
-        "id": 15620,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
-        "notation": "SameLanguageHarmonization",
-        "title": "Same language harmonization",
-        "definition": "Two or more countries or regions sharing the same language cooperate in the translation process, producing a commonly agreed translation which each country or region can then modify to account for linguistic, cultural, socio-economic or political differences. If needed, this term may be used alongside other relevant terms from this list.",
-        "position": 10,
-        "deprecated": false
-      },
-      {
-        "id": 15621,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
-        "notation": "TranslationMethodUnspecified",
-        "title": "Translation method unspecified",
-        "definition": "It is not known what kind of translation method has been used.",
-        "position": 11,
-        "deprecated": false
-      },
-      {
-        "id": 15622,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
+        "id": 8204,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
         "notation": "Other",
         "title": "Other",
-        "definition": "The translation method is known but not in the list. If needed, use the free-text element for a more extensive description.",
-        "position": 12,
+        "definition": "Use when the aggregation method is known, but not found in the list.",
+        "previousConcept": 2641,
+        "position": 10,
+        "deprecated": false
+      }
+    ]
+  },
+  {
+    "name": "CESSDAPersistentIdentifierTypes",
+    "data": [
+      {
+        "id": 8987,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes_[CODE]?v=1.0",
+        "notation": "ARK",
+        "title": "ARK",
+        "definition": "Archival Resource Key",
+        "position": 0,
+        "deprecated": false
+      },
+      {
+        "id": 8986,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes_[CODE]?v=1.0",
+        "notation": "DOI",
+        "title": "DOI",
+        "definition": "Digital Object Identifier",
+        "position": 1,
+        "deprecated": false
+      },
+      {
+        "id": 8988,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes_[CODE]?v=1.0",
+        "notation": "Handle",
+        "title": "Handle",
+        "definition": "The Handle system. Includes ePIC Handles.",
+        "position": 2,
+        "deprecated": false
+      },
+      {
+        "id": 8989,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes_[CODE]?v=1.0",
+        "notation": "URN",
+        "title": "URN",
+        "definition": "Universal Resource Name",
+        "position": 3,
         "deprecated": false
       }
     ]
@@ -896,475 +988,6 @@
         "title": "Other",
         "definition": "Use if the event type is known, but not found in the list.",
         "position": 38,
-        "deprecated": false
-      }
-    ]
-  },
-  {
-    "name": "SoftwarePackage",
-    "data": [
-      {
-        "id": 3487,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "AcaStat",
-        "title": "AcaStat",
-        "definition": "",
-        "position": 0,
-        "deprecated": false
-      },
-      {
-        "id": 3488,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "ADaMSoft",
-        "title": "ADaMSoft",
-        "definition": "",
-        "position": 1,
-        "deprecated": false
-      },
-      {
-        "id": 3489,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "AnalyseIt",
-        "title": "Analyse-it",
-        "definition": "",
-        "position": 2,
-        "deprecated": false
-      },
-      {
-        "id": 3490,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "Auguri",
-        "title": "Auguri",
-        "definition": "",
-        "position": 3,
-        "deprecated": false
-      },
-      {
-        "id": 3491,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "BioStat",
-        "title": "BioStat",
-        "definition": "",
-        "position": 4,
-        "deprecated": false
-      },
-      {
-        "id": 3492,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "BMDP",
-        "title": "BMDP",
-        "definition": "",
-        "position": 5,
-        "deprecated": false
-      },
-      {
-        "id": 3493,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "BrightStat",
-        "title": "BrightStat",
-        "definition": "",
-        "position": 6,
-        "deprecated": false
-      },
-      {
-        "id": 3494,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "Dataplot",
-        "title": "Dataplot",
-        "definition": "",
-        "position": 7,
-        "deprecated": false
-      },
-      {
-        "id": 3495,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "DBase",
-        "title": "DBase",
-        "definition": "",
-        "position": 8,
-        "deprecated": false
-      },
-      {
-        "id": 3496,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "DIF",
-        "title": "DIF",
-        "definition": "Data interchange format suitable for use in Excel.",
-        "position": 9,
-        "deprecated": false
-      },
-      {
-        "id": 3497,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "EasyReg",
-        "title": "EasyReg",
-        "definition": "",
-        "position": 10,
-        "deprecated": false
-      },
-      {
-        "id": 3498,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "EpiInfo",
-        "title": "Epi Info",
-        "definition": "",
-        "position": 11,
-        "deprecated": false
-      },
-      {
-        "id": 3499,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "EViews",
-        "title": "EViews",
-        "definition": "",
-        "position": 12,
-        "deprecated": false
-      },
-      {
-        "id": 3500,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "GAUSS",
-        "title": "GAUSS",
-        "definition": "",
-        "position": 13,
-        "deprecated": false
-      },
-      {
-        "id": 3501,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "GoldenHelix",
-        "title": "Golden Helix",
-        "definition": "",
-        "position": 14,
-        "deprecated": false
-      },
-      {
-        "id": 3502,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "GraphPadPrism",
-        "title": "GraphPad Prism",
-        "definition": "",
-        "position": 15,
-        "deprecated": false
-      },
-      {
-        "id": 3503,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "Gretl",
-        "title": "gretl",
-        "definition": "",
-        "position": 16,
-        "deprecated": false
-      },
-      {
-        "id": 3504,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "JMP",
-        "title": "JMP",
-        "definition": "",
-        "position": 17,
-        "deprecated": false
-      },
-      {
-        "id": 3505,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "Limdep",
-        "title": "Limdep",
-        "definition": "",
-        "position": 18,
-        "deprecated": false
-      },
-      {
-        "id": 3506,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "MacAnova",
-        "title": "MacAnova",
-        "definition": "",
-        "position": 19,
-        "deprecated": false
-      },
-      {
-        "id": 3507,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "Maple",
-        "title": "Maple",
-        "definition": "",
-        "position": 20,
-        "deprecated": false
-      },
-      {
-        "id": 3508,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "Mathematica",
-        "title": "Mathematica",
-        "definition": "",
-        "position": 21,
-        "deprecated": false
-      },
-      {
-        "id": 3509,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "MatLab",
-        "title": "MatLab",
-        "definition": "",
-        "position": 22,
-        "deprecated": false
-      },
-      {
-        "id": 3510,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "MedCalc",
-        "title": "MedCalc",
-        "definition": "",
-        "position": 23,
-        "deprecated": false
-      },
-      {
-        "id": 3511,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "Minitab",
-        "title": "Minitab",
-        "definition": "",
-        "position": 24,
-        "deprecated": false
-      },
-      {
-        "id": 3512,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "ModelQED",
-        "title": "modelQED",
-        "definition": "",
-        "position": 25,
-        "deprecated": false
-      },
-      {
-        "id": 3513,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "NCSS",
-        "title": "NCSS",
-        "definition": "",
-        "position": 26,
-        "deprecated": false
-      },
-      {
-        "id": 3514,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "NSDStat",
-        "title": "NSDStat",
-        "definition": "",
-        "position": 27,
-        "deprecated": false
-      },
-      {
-        "id": 3515,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "OpenEpi",
-        "title": "OpenEpi",
-        "definition": "",
-        "position": 28,
-        "deprecated": false
-      },
-      {
-        "id": 3516,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "Origin",
-        "title": "Origin",
-        "definition": "",
-        "position": 29,
-        "deprecated": false
-      },
-      {
-        "id": 3517,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "Partek",
-        "title": "Partek",
-        "definition": "",
-        "position": 30,
-        "deprecated": false
-      },
-      {
-        "id": 3518,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "Primer",
-        "title": "Primer",
-        "definition": "",
-        "position": 31,
-        "deprecated": false
-      },
-      {
-        "id": 3519,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "PSPP",
-        "title": "PSPP",
-        "definition": "",
-        "position": 32,
-        "deprecated": false
-      },
-      {
-        "id": 3520,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "RCommander",
-        "title": "R Commander",
-        "definition": "",
-        "position": 33,
-        "deprecated": false
-      },
-      {
-        "id": 3521,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "R",
-        "title": "R",
-        "definition": "",
-        "position": 34,
-        "deprecated": false
-      },
-      {
-        "id": 3522,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "RATS",
-        "title": "RATS",
-        "definition": "",
-        "position": 35,
-        "deprecated": false
-      },
-      {
-        "id": 3523,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "RKWard",
-        "title": "RKWard",
-        "definition": "",
-        "position": 36,
-        "deprecated": false
-      },
-      {
-        "id": 3524,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "SalStat",
-        "title": "SalStat",
-        "definition": "",
-        "position": 37,
-        "deprecated": false
-      },
-      {
-        "id": 3525,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "SAS",
-        "title": "SAS",
-        "definition": "",
-        "position": 38,
-        "deprecated": false
-      },
-      {
-        "id": 3526,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "Shazam",
-        "title": "Shazam",
-        "definition": "",
-        "position": 39,
-        "deprecated": false
-      },
-      {
-        "id": 3527,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "SOCR",
-        "title": "SOCR",
-        "definition": "",
-        "position": 40,
-        "deprecated": false
-      },
-      {
-        "id": 3528,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "SPlus",
-        "title": "SPlus",
-        "definition": "",
-        "position": 41,
-        "deprecated": false
-      },
-      {
-        "id": 3529,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "SPSS",
-        "title": "SPSS",
-        "definition": "",
-        "position": 42,
-        "deprecated": false
-      },
-      {
-        "id": 3530,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "Stata",
-        "title": "Stata",
-        "definition": "",
-        "position": 43,
-        "deprecated": false
-      },
-      {
-        "id": 3531,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "Statistica",
-        "title": "Statistica",
-        "definition": "",
-        "position": 44,
-        "deprecated": false
-      },
-      {
-        "id": 3532,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "SUDAAN",
-        "title": "SUDAAN",
-        "definition": "",
-        "position": 45,
-        "deprecated": false
-      },
-      {
-        "id": 3533,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "TSP",
-        "title": "TSP",
-        "definition": "",
-        "position": 46,
-        "deprecated": false
-      },
-      {
-        "id": 3534,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
-        "notation": "Other",
-        "title": "Other",
-        "definition": "Use if the software package is known, but not found in the list.",
-        "position": 47,
-        "deprecated": false
-      }
-    ]
-  },
-  {
-    "name": "CommonalityType",
-    "data": [
-      {
-        "id": 3051,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/CommonalityType/1.0/[CODE]",
-        "notation": "Identical",
-        "title": "Identical",
-        "definition": "Use when the compared items have identical content. For variables, for example, all the elements of a variable description (name, label, question text, category values and codes, universe, concept) will be identical in form.",
-        "position": 0,
-        "deprecated": false
-      },
-      {
-        "id": 3052,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/CommonalityType/1.0/[CODE]",
-        "notation": "Some",
-        "title": "Some",
-        "definition": "Use when the compared items have similar but not identical content. For variables, for example, some of the elements of a variable description (name, label, question text, category values and codes, universe, concept) will be identical in form, while others will be different.",
-        "position": 1,
-        "deprecated": false
-      },
-      {
-        "id": 3053,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/CommonalityType/1.0/[CODE]",
-        "notation": "None",
-        "title": "None",
-        "definition": "Normally not used, as it would not be expected to compare items that have nothing in common. This term was necessary to complete the commonality range, and may be used in special cases, as determined by user needs (for instance, when comparability was expected, but not found).",
-        "position": 2,
         "deprecated": false
       }
     ]
@@ -3616,416 +3239,164 @@
     ]
   },
   {
-    "name": "NumericType",
+    "name": "LanguageProficiency",
     "data": [
       {
-        "id": 8221,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
-        "notation": "Integer",
-        "title": "Integer",
-        "definition": "Whole numbers,  the infinite set of integers, no minimum or maximum value.  An integer datatype corresponding to the W3C XML Schema's xs:integer datatype.",
-        "previousConcept": 4524,
+        "id": 3185,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
+        "notation": "Native",
+        "title": "Native",
+        "definition": "The individual is a native user of the language whose level of proficiency is unknown/unspecified.",
         "position": 0,
         "deprecated": false
       },
       {
-        "id": 8227,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
-        "notation": "Int",
-        "title": "Int ",
-        "definition": "Whole numbers in the range -2147483648 .. 2147483647. An integer datatype corresponding to the W3C XML Schema's xs:int datatype.",
-        "previousConcept": 4525,
+        "id": 3187,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
+        "notation": "Native.Fluent",
+        "title": "Native: Fluent",
+        "definition": "The individual is a native user with excellent mastery of the language, including breadth of vocabulary and idiom, and confident command of the grammar.",
+        "parent": "Native",
         "position": 1,
         "deprecated": false
       },
       {
-        "id": 8224,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
-        "notation": "Long",
-        "title": "Long",
-        "definition": "Whole numbers in the range -9223372036854775808 .. 9223372036854775807. A numeric datatype corresponding to the W3C XML Schema's xs:long datatype.",
-        "previousConcept": 4526,
+        "id": 3188,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
+        "notation": "Native.Good",
+        "title": "Native: Good",
+        "definition": "The individual is a native user of the language with good structural accuracy, vocabulary and comprehension.",
+        "parent": "Native",
         "position": 2,
         "deprecated": false
       },
       {
-        "id": 8225,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
-        "notation": "Short",
-        "title": "Short",
-        "definition": "Whole numbers in the range -32768 .. 32767. A numeric datatype corresponding to the W3C XML Schema's xs:short datatype.",
-        "previousConcept": 4527,
+        "id": 3189,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
+        "notation": "Native.Basic",
+        "title": "Native: Basic",
+        "definition": "The individual is a native user of the language with limited vocabulary, use of grammar and comprehension.",
+        "parent": "Native",
         "position": 3,
         "deprecated": false
       },
       {
-        "id": 8220,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
-        "notation": "Decimal",
-        "title": "Decimal",
-        "definition": "A subset of real numbers, which can be represented by a finite-length sequence of decimal digits (0-9) separated by a period as a decimal indicator. An optional leading sign is allowed. If the sign is omitted, \"+\" is assumed. Leading and trailing zeroes are optional. If the fractional part is zero, the period and following zero(es) can be omitted. For example: -1.23, 12678967.543233, +100000.00, 210. A numeric datatype corresponding to the W3C XML Schema's xs:decimal datatype.",
-        "previousConcept": 4528,
+        "id": 3190,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
+        "notation": "NonNative",
+        "title": "Non-native",
+        "definition": "The individual is a non-native user of the language whose level of proficiency is unknown/unspecified.",
         "position": 4,
         "deprecated": false
       },
       {
-        "id": 8229,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
-        "notation": "Float",
-        "title": "Float",
-        "definition": "Single-precision 32-bit floating point type: The basic value space of float consists of the values m*2^e, where m is an integer whose absolute value is less than 2^24, and e is an integer between -149 and 104, inclusive. In addition, it also contains the following three special values: positive and negative infinity and not-a-number (NaN). The special values positive and negative infinity and not-a-number have lexical representations INF, -INF and NaN, respectively. Lexical representations for zero may take a positive or negative sign. For example, -1E4, 1267.43233E12, 12.78e-2, 12 , -0, 0 and INF are all legal literals for float. A numeric datatype corresponding to the W3C XML Schema's xs:float datatype.",
-        "previousConcept": 4529,
+        "id": 3191,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
+        "notation": "NonNative.Fluent",
+        "title": "Non-native: Fluent",
+        "definition": "The individual is a non-native user with excellent mastery of the language, including breadth of vocabulary and idiom, and confident command of the grammar.",
+        "parent": "NonNative",
         "position": 5,
         "deprecated": false
       },
       {
-        "id": 8223,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
-        "notation": "Double",
-        "title": "Double",
-        "definition": "Double-precision 64-bit floating point type. The basic value space of double consists of the values m*2^e, where m is an integer whose absolute value is less than 2^53, and e is an integer between -1075 and 970, inclusive. In addition to the basic value space described above, the value space of double also contains the following three special values: positive and negative infinity and not-a-number (NaN). The special values positive and negative infinity and not-a-number have lexical representations INF, -INF and NaN, respectively. Lexical representations for zero may take a positive or negative sign. For example, -1E4, 1267.43233E12, 12.78e-2, 12 , -0, 0 and INF are all legal literals for double. A numeric datatype corresponding to the W3C XML Schema's xs:double datatype.",
-        "previousConcept": 4530,
+        "id": 3192,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
+        "notation": "NonNative.Good",
+        "title": "Non-native: Good",
+        "definition": "The individual is a non-native user of the language with good structural accuracy, vocabulary and comprehension.",
+        "parent": "NonNative",
         "position": 6,
         "deprecated": false
       },
       {
-        "id": 8228,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
-        "notation": "Count",
-        "title": "Count",
-        "definition": "Ordinal number of objects in a finite set, discrete. A simple incrementing Integer type. When using in DDI-L, the \"isSequence\" facet must be set to true, and the \"interval\" facet must be set to \"1\".",
-        "previousConcept": 4531,
+        "id": 3193,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
+        "notation": "NonNative.Basic",
+        "title": "Non-native: Basic",
+        "definition": "The individual is a non-native user of the language with limited vocabulary, use of grammar and comprehension.",
+        "parent": "NonNative",
         "position": 7,
         "deprecated": false
       },
       {
-        "id": 8222,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
-        "notation": "Incremental",
-        "title": "Incremental",
-        "definition": "A value that increases continuously and infinitely by a given amount. Use of this term in DDI-L indicates that the value increases by the amount provided in the \"interval\" facet; the \"isSequence\" facet will be set to \"true\".",
-        "previousConcept": 4532,
+        "id": 3194,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
+        "notation": "NativeStatusUnspecified",
+        "title": "Unspecified native status",
+        "definition": "The individual's native status and her/his level of proficiency are both unknown, or not specified.",
         "position": 8,
         "deprecated": false
       },
       {
-        "id": 8226,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]",
-        "notation": "Other",
-        "title": "Other",
-        "definition": "Use if the numeric type is known, but not found in the list.",
-        "previousConcept": 4533,
-        "position": 9,
-        "deprecated": false
-      }
-    ]
-  },
-  {
-    "name": "cdcPublishernames",
-    "data": [
-      {
-        "id": 15650,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "AUSSDA",
-        "title": "Austrian Social Science Data Archive (AUSSDA)",
-        "definition": "",
-        "previousConcept": 14129,
-        "position": 0,
-        "deprecated": false
-      },
-      {
-        "id": 15641,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "CSDA",
-        "title": "Czech Social Science Data Archive (ČSDA)",
-        "definition": "",
-        "previousConcept": 14114,
-        "position": 1,
-        "deprecated": false
-      },
-      {
-        "id": 15659,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "DNA",
-        "title": "Danish National Archives (DNA)",
-        "definition": "",
-        "previousConcept": 14119,
-        "position": 2,
-        "deprecated": false
-      },
-      {
-        "id": 15653,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "DANS",
-        "title": "DANS-KNAW",
-        "definition": "Netherlands",
-        "previousConcept": 14120,
-        "position": 3,
-        "deprecated": false
-      },
-      {
-        "id": 15655,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "FORS",
-        "title": "FORS - Swiss Centre of Expertise in the Social Sciences",
-        "definition": "",
-        "previousConcept": 14117,
-        "position": 4,
-        "deprecated": false
-      },
-      {
-        "id": 15651,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "FSD",
-        "title": "Finnish Social Science Data Archive (FSD)",
-        "definition": "",
-        "previousConcept": 14127,
-        "position": 5,
-        "deprecated": false
-      },
-      {
-        "id": 15658,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "GESIS",
-        "title": "GESIS - Leibniz Institute for the Social Sciences",
-        "definition": "Germany",
-        "previousConcept": 14122,
-        "position": 6,
-        "deprecated": false
-      },
-      {
-        "id": 15656,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "APIS",
-        "title": "Portuguese Archive of Social Information (APIS)",
-        "definition": "",
-        "previousConcept": 14128,
-        "position": 7,
-        "deprecated": false
-      },
-      {
-        "id": 15647,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "ProgedoCDSP",
-        "title": "PROGEDO: Center for Socio-Political Data (CDSP)",
-        "definition": "France",
-        "previousConcept": 14113,
-        "position": 8,
-        "deprecated": false
-      },
-      {
-        "id": 15643,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "ProgedoCNRS",
-        "title": "PROGEDO: CNRS",
-        "definition": "France",
-        "previousConcept": 14112,
+        "id": 3195,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
+        "notation": "NativeStatusUnspecified.Fluent",
+        "title": "Unspecified native status: Fluent",
+        "definition": "The individual's native status is unknown/unspecified; s/he has excellent mastery of the language, including breadth of vocabulary and idiom, and confident command of the grammar.",
+        "parent": "NativeStatusUnspecified",
         "position": 9,
         "deprecated": false
       },
       {
-        "id": 15654,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "Progedo",
-        "title": "PROGEDO",
-        "definition": "France",
-        "previousConcept": 14115,
+        "id": 3196,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
+        "notation": "NativeStatusUnspecified.Good",
+        "title": "Unspecified native status: Good",
+        "definition": "The individual's native status is unknown/unspecified; s/he has good structural accuracy, vocabulary and comprehension.",
+        "parent": "NativeStatusUnspecified",
         "position": 10,
         "deprecated": false
       },
       {
-        "id": 15642,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "Sikt",
-        "title": "Sikt - Norwegian Agency for Shared Services in Education and Research",
-        "definition": "",
-        "previousConcept": 14116,
+        "id": 3197,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
+        "notation": "NativeStatusUnspecified.Basic",
+        "title": "Unspecified native status: Basic",
+        "definition": "The individual's native status is unknown/unspecified; s/he has limited vocabulary, use of grammar, and comprehension.",
+        "parent": "NativeStatusUnspecified",
         "position": 11,
         "deprecated": false
       },
       {
-        "id": 15644,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "SASD",
-        "title": "Slovak Archive of Social Data (SASD)",
-        "definition": "",
-        "previousConcept": 14118,
+        "id": 3198,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
+        "notation": "Other",
+        "title": "Other",
+        "definition": "Use if level of proficiency is known, but not found in the list. It is recommended that any new entry combine information about the individual's native/non-native status and his/her level of proficiency, following the format [native status].[proficiency level] as shown in the entries above.",
         "position": 12,
-        "deprecated": false
-      },
-      {
-        "id": 15646,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "ADP",
-        "title": "Slovenian Social Science Data Archives (ADP)",
-        "definition": "",
-        "previousConcept": 14124,
-        "position": 13,
-        "deprecated": false
-      },
-      {
-        "id": 15657,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "SODHA",
-        "title": "Social Sciences and Digital Humanities Archive (SODHA)",
-        "definition": "Belgium",
-        "previousConcept": 14126,
-        "position": 14,
-        "deprecated": false
-      },
-      {
-        "id": 15649,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "SoDaNet",
-        "title": "SoDaNet - Greek Research Infrastructure for Social Science",
-        "definition": "",
-        "previousConcept": 14111,
-        "position": 15,
-        "deprecated": false
-      },
-      {
-        "id": 15648,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "SND",
-        "title": "Swedish National Data Service (SND)",
-        "definition": "",
-        "previousConcept": 14123,
-        "position": 16,
-        "deprecated": false
-      },
-      {
-        "id": 15652,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "UKDS",
-        "title": "UK Data Service",
-        "definition": "",
-        "previousConcept": 14125,
-        "position": 17,
-        "deprecated": false
-      },
-      {
-        "id": 15645,
-        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
-        "notation": "UniData",
-        "title": "UniData - Bicocca Data Archive",
-        "definition": "Italy",
-        "previousConcept": 14121,
-        "position": 18,
         "deprecated": false
       }
     ]
   },
   {
-    "name": "aggregationmethod",
+    "name": "TypeofConceptGroup",
     "data": [
       {
-        "id": 8201,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
-        "notation": "Sum",
-        "title": "Sum",
-        "definition": "A value obtained as a result of adding two or more numbers (items/amounts).",
-        "previousConcept": 2631,
+        "id": 3542,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0/[CODE]",
+        "notation": "Administrative",
+        "title": "Administrative",
+        "definition": "A concept group created for administrative purposes, for instance for subsetting or reorganizing data.",
         "position": 0,
         "deprecated": false
       },
       {
-        "id": 8203,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
-        "notation": "ArithmeticMean",
-        "title": "Arithmetic mean",
-        "definition": "Mathematical average of a set of values. The mean is calculated by adding up two or more values and dividing the total by their number. In social/political science, it is usually the sum of the measurements divided by the number of subjects, or cases.",
-        "previousConcept": 2632,
+        "id": 3543,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0/[CODE]",
+        "notation": "Thematic",
+        "title": "Thematic",
+        "definition": "A concept group created to bring together concepts reflecting the same general theme, or topic; for example, a group called \"Trust\" can include trust in institutions, trust in government, as well as interpersonal trust.",
         "position": 1,
         "deprecated": false
       },
       {
-        "id": 8206,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
-        "notation": "Count",
-        "title": "Count",
-        "definition": "Total number of units in a group of items.",
-        "previousConcept": 2633,
-        "position": 2,
-        "deprecated": false
-      },
-      {
-        "id": 8209,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
-        "notation": "Mode",
-        "title": "Mode",
-        "definition": "The value that appears most often in a set of values.",
-        "previousConcept": 2634,
-        "position": 3,
-        "deprecated": false
-      },
-      {
-        "id": 8208,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
-        "notation": "Median",
-        "title": "Median",
-        "definition": "The middle value in a series of values arranged sequentially from smallest to largest.",
-        "previousConcept": 2635,
-        "position": 4,
-        "deprecated": false
-      },
-      {
-        "id": 8207,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
-        "notation": "Maximum",
-        "title": "Maximum",
-        "definition": "The highest value attained or recorded.",
-        "previousConcept": 2636,
-        "position": 5,
-        "deprecated": false
-      },
-      {
-        "id": 8205,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
-        "notation": "Minimum",
-        "title": "Minimum",
-        "definition": "The lowest value attained or recorded.",
-        "previousConcept": 2637,
-        "position": 6,
-        "deprecated": false
-      },
-      {
-        "id": 8199,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
-        "notation": "Percent",
-        "title": "Percent",
-        "definition": "The number of parts out of 100. In mathematics, a percentage is a number of ratio expressed as a fraction of 100. Percentages are used to express how large one quantity is relative to another quantity.",
-        "previousConcept": 2638,
-        "position": 7,
-        "deprecated": false
-      },
-      {
-        "id": 8202,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
-        "notation": "CumulativePercent",
-        "title": "Cumulative percent",
-        "definition": "The total of a frequency and all frequencies below it in a frequency distribution; the \"running total\" of frequencies [the maximum value is 100%].",
-        "previousConcept": 2639,
-        "position": 8,
-        "deprecated": false
-      },
-      {
-        "id": 8200,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
-        "notation": "PercentileRank",
-        "title": "Percentile rank",
-        "definition": "The percentile rank of a item is the percentage of items in its frequency distribution which are lower [cannot reach 100%].",
-        "previousConcept": 2640,
-        "position": 9,
-        "deprecated": false
-      },
-      {
-        "id": 8204,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]",
+        "id": 3544,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0/[CODE]",
         "notation": "Other",
         "title": "Other",
-        "definition": "Use when the aggregation method is known, but not found in the list.",
-        "previousConcept": 2641,
-        "position": 10,
+        "definition": "Use when the type of concept group is known, but not found in the list.",
+        "position": 2,
         "deprecated": false
       }
     ]
@@ -4732,33 +4103,305 @@
     ]
   },
   {
-    "name": "TypeofConceptGroup",
+    "name": "TypeofTranslationMethod",
     "data": [
       {
-        "id": 3542,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0/[CODE]",
-        "notation": "Administrative",
-        "title": "Administrative",
-        "definition": "A concept group created for administrative purposes, for instance for subsetting or reorganizing data.",
+        "id": 15610,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
+        "notation": "SingleTranslation",
+        "title": "Single translation",
+        "definition": "A single translator produces one translation. Use this broader term if the translator makes the decisions about the final version, if it is not known who makes the final decisions, or if the review process is not explained in either of the narrower terms.",
         "position": 0,
         "deprecated": false
       },
       {
-        "id": 3543,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0/[CODE]",
-        "notation": "Thematic",
-        "title": "Thematic",
-        "definition": "A concept group created to bring together concepts reflecting the same general theme, or topic; for example, a group called \"Trust\" can include trust in institutions, trust in government, as well as interpersonal trust.",
+        "id": 15611,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
+        "notation": "SingleTranslation.IndividualReview",
+        "title": "Single translation: Individual review",
+        "definition": "A single translator produces one translation. Another individual reviews the translation, possibly in consultation with the translator. There may be more than one review round and different individual reviewers in each round.  An  adjudicator (possibly a reviewer) approves the final version.",
+        "parent": "SingleTranslation",
         "position": 1,
         "deprecated": false
       },
       {
-        "id": 3544,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0/[CODE]",
+        "id": 15612,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
+        "notation": "SingleTranslation.CommitteeReview",
+        "title": "Single translation: Committee review",
+        "definition": "A single translator produces one translation. A committee, possibly including the translator, reviews it and approves the final version. There may be more than one review round. In survey translation, the committee may include survey, domain and language experts.",
+        "parent": "SingleTranslation",
+        "position": 2,
+        "deprecated": false
+      },
+      {
+        "id": 15613,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
+        "notation": "SplitTranslation",
+        "title": "Split translation",
+        "definition": "Two or more translators produce one translation by splitting up a source text (for example, a questionnaire) into subsections and each translating a subsection. Use this broader term if the translators decide on the final version amongst themselves, if it is not known who makes the final decisions or if the review process is not explained in either of the narrower terms.",
+        "position": 3,
+        "deprecated": false
+      },
+      {
+        "id": 15614,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
+        "notation": "SplitTranslation.IndividualReview",
+        "title": "Split translation: Individual review",
+        "definition": "Two or more translators produce one translation by splitting up a source text (for example, a questionnaire) into subsections and each translating a subsection. An individual reviews the whole translation, possibly in consultation with the translators. There may be more than one review round and different individual reviewers in each round. An adjudicator (possibly a reviewer) approves the final version.",
+        "parent": "SplitTranslation",
+        "position": 4,
+        "deprecated": false
+      },
+      {
+        "id": 15615,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
+        "notation": "SplitTranslation.CommitteeReview",
+        "title": "Split translation: Committee review",
+        "definition": "Two or more translators produce one translation by splitting up a source text (for example, a questionnaire) into subsections and each translating a subsection. A committee, possibly including the translators, reviews the whole translation and approves the final version. There may be more than one review round. In survey translation, the committee may include survey, domain and language experts.",
+        "parent": "SplitTranslation",
+        "position": 5,
+        "deprecated": false
+      },
+      {
+        "id": 15616,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
+        "notation": "ParallelTranslations",
+        "title": "Parallel translations",
+        "definition": "Two or more translators each produce a separate,  independent  translation of a whole text. Use this broader term if the  translators decide on a final version amongst themselves, if it is not known who makes the final decisions or if the review process is not described in either of the narrower terms.",
+        "position": 6,
+        "deprecated": false
+      },
+      {
+        "id": 15617,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
+        "notation": "ParallelTranslations.IndividualReview",
+        "title": "Parallel translations: Individual review",
+        "definition": "Two or more translators each produce a separate,  independent  translation of a whole text. An individual reviews all the translations and makes decisions on the final version, possibly in consultation with the translators. There may be more than one review round and different individual reviewers in each round. An adjudicator (possibly a reviewer) approves the final version.",
+        "parent": "ParallelTranslations",
+        "position": 7,
+        "deprecated": false
+      },
+      {
+        "id": 15618,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
+        "notation": "ParallelTranslations.CommitteeReview",
+        "title": "Parallel translations: Committee review",
+        "definition": "Two or more translators each produce a separate, independent  translation of a whole text. A committee, possibly including the translators, reviews all the translations, and makes decisions on the final version. There may be more than one review round. In survey translation, the committee may include survey, domain and language experts.",
+        "parent": "ParallelTranslations",
+        "position": 8,
+        "deprecated": false
+      },
+      {
+        "id": 15619,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
+        "notation": "SameLanguageAdaptation",
+        "title": "Same language adaptation",
+        "definition": "A country or region uses the final translation of another country or region sharing the same language as the basis for their own translation. Some of the content of the original translation is modified to reflect linguistic, cultural, socio-economic or political differences. If needed, this term may be used alongside other relevant terms from this list.",
+        "position": 9,
+        "deprecated": false
+      },
+      {
+        "id": 15620,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
+        "notation": "SameLanguageHarmonization",
+        "title": "Same language harmonization",
+        "definition": "Two or more countries or regions sharing the same language cooperate in the translation process, producing a commonly agreed translation which each country or region can then modify to account for linguistic, cultural, socio-economic or political differences. If needed, this term may be used alongside other relevant terms from this list.",
+        "position": 10,
+        "deprecated": false
+      },
+      {
+        "id": 15621,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
+        "notation": "TranslationMethodUnspecified",
+        "title": "Translation method unspecified",
+        "definition": "It is not known what kind of translation method has been used.",
+        "position": 11,
+        "deprecated": false
+      },
+      {
+        "id": 15622,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]",
         "notation": "Other",
         "title": "Other",
-        "definition": "Use when the type of concept group is known, but not found in the list.",
+        "definition": "The translation method is known but not in the list. If needed, use the free-text element for a more extensive description.",
+        "position": 12,
+        "deprecated": false
+      }
+    ]
+  },
+  {
+    "name": "TypeofAddress",
+    "data": [
+      {
+        "id": 8812,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]",
+        "notation": "Mailing",
+        "title": "Mailing address",
+        "definition": "Includes both \"street\", and P.O. Box addresses used for sending and receiving physical/conventional mail through the postal system.",
+        "previousConcept": 3535,
+        "position": 0,
+        "deprecated": false
+      },
+      {
+        "id": 8817,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]",
+        "notation": "Mailing.Residential",
+        "title": "Mailing address: Residential",
+        "definition": "Address for directing physical/conventional mail to a person's residence, including institutional residence.",
+        "previousConcept": 3536,
+        "parent": "Mailing",
+        "position": 1,
+        "deprecated": false
+      },
+      {
+        "id": 8814,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]",
+        "notation": "Mailing.Nonresidential",
+        "title": "Mailing address: Nonresidential",
+        "definition": "Address for directing physical/conventional mail to a business, organization, or other type of association.",
+        "previousConcept": 3537,
+        "parent": "Mailing",
         "position": 2,
+        "deprecated": false
+      },
+      {
+        "id": 8818,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]",
+        "notation": "Visiting",
+        "title": "Visiting address",
+        "definition": "Address used to identify a physical location (typically a building or a unit in a building) that may be accessed in person.",
+        "previousConcept": 3538,
+        "position": 3,
+        "deprecated": false
+      },
+      {
+        "id": 8816,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]",
+        "notation": "Visiting.Residential",
+        "title": "Visiting address: Residential",
+        "definition": "Visiting address for a person's residence, including institutional residence.",
+        "previousConcept": 3539,
+        "parent": "Visiting",
+        "position": 4,
+        "deprecated": false
+      },
+      {
+        "id": 8815,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]",
+        "notation": "Visiting.Nonresidential",
+        "title": "Visiting address: Nonresidential",
+        "definition": "Visiting address for a business, organization, or other type of association.",
+        "previousConcept": 3540,
+        "parent": "Visiting",
+        "position": 5,
+        "deprecated": false
+      },
+      {
+        "id": 8813,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]",
+        "notation": "Other",
+        "title": "Other",
+        "definition": "Use if type of address is known, but not found in the list.",
+        "previousConcept": 3541,
+        "position": 6,
+        "deprecated": false
+      }
+    ]
+  },
+  {
+    "name": "CommonalityType",
+    "data": [
+      {
+        "id": 3051,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/CommonalityType/1.0/[CODE]",
+        "notation": "Identical",
+        "title": "Identical",
+        "definition": "Use when the compared items have identical content. For variables, for example, all the elements of a variable description (name, label, question text, category values and codes, universe, concept) will be identical in form.",
+        "position": 0,
+        "deprecated": false
+      },
+      {
+        "id": 3052,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/CommonalityType/1.0/[CODE]",
+        "notation": "Some",
+        "title": "Some",
+        "definition": "Use when the compared items have similar but not identical content. For variables, for example, some of the elements of a variable description (name, label, question text, category values and codes, universe, concept) will be identical in form, while others will be different.",
+        "position": 1,
+        "deprecated": false
+      },
+      {
+        "id": 3053,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/CommonalityType/1.0/[CODE]",
+        "notation": "None",
+        "title": "None",
+        "definition": "Normally not used, as it would not be expected to compare items that have nothing in common. This term was necessary to complete the commonality range, and may be used in special cases, as determined by user needs (for instance, when comparability was expected, but not found).",
+        "position": 2,
+        "deprecated": false
+      }
+    ]
+  },
+  {
+    "name": "TypeofNote",
+    "data": [
+      {
+        "id": 8807,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]",
+        "notation": "Processing",
+        "title": "Processing note",
+        "definition": "A note related to the processing of the data, or metadata, or both.",
+        "previousConcept": 3545,
+        "position": 0,
+        "deprecated": false
+      },
+      {
+        "id": 8811,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]",
+        "notation": "Addendum",
+        "title": "Addendum",
+        "definition": "Additional information, usually of a factual nature (as opposed to a comment), intended to clarify the content of a DDI section or module.",
+        "previousConcept": 3546,
+        "position": 1,
+        "deprecated": false
+      },
+      {
+        "id": 8809,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]",
+        "notation": "System",
+        "title": "System note",
+        "definition": "A note generated by the processing system used to produce the data, or metadata, or both.",
+        "previousConcept": 3547,
+        "position": 2,
+        "deprecated": false
+      },
+      {
+        "id": 8810,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]",
+        "notation": "Observation",
+        "title": "Observation",
+        "definition": "A note providing information on an aspect relevant for data usage that is likely to remain permanent, or a temporary note providing information for further review and correction. May be an observation entered by a human user or a system-generated note on any inconsistencies or deviations.",
+        "previousConcept": 3548,
+        "position": 3,
+        "deprecated": false
+      },
+      {
+        "id": 8806,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]",
+        "notation": "Comment",
+        "title": "Comment",
+        "definition": "A human-readable comment, typically of a more subjective nature than an addendum.",
+        "previousConcept": 3549,
+        "position": 4,
+        "deprecated": false
+      },
+      {
+        "id": 8808,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]",
+        "notation": "Other",
+        "title": "Other",
+        "definition": "Use when the type of note is known, but not found in the list.",
+        "previousConcept": 3550,
+        "position": 5,
         "deprecated": false
       }
     ]
@@ -4809,6 +4452,638 @@
         "title": "Other",
         "definition": "Use if the response unit is known, but not found in the list.",
         "position": 4,
+        "deprecated": false
+      }
+    ]
+  },
+  {
+    "name": "SoftwarePackage",
+    "data": [
+      {
+        "id": 3487,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "AcaStat",
+        "title": "AcaStat",
+        "definition": "",
+        "position": 0,
+        "deprecated": false
+      },
+      {
+        "id": 3488,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "ADaMSoft",
+        "title": "ADaMSoft",
+        "definition": "",
+        "position": 1,
+        "deprecated": false
+      },
+      {
+        "id": 3489,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "AnalyseIt",
+        "title": "Analyse-it",
+        "definition": "",
+        "position": 2,
+        "deprecated": false
+      },
+      {
+        "id": 3490,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "Auguri",
+        "title": "Auguri",
+        "definition": "",
+        "position": 3,
+        "deprecated": false
+      },
+      {
+        "id": 3491,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "BioStat",
+        "title": "BioStat",
+        "definition": "",
+        "position": 4,
+        "deprecated": false
+      },
+      {
+        "id": 3492,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "BMDP",
+        "title": "BMDP",
+        "definition": "",
+        "position": 5,
+        "deprecated": false
+      },
+      {
+        "id": 3493,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "BrightStat",
+        "title": "BrightStat",
+        "definition": "",
+        "position": 6,
+        "deprecated": false
+      },
+      {
+        "id": 3494,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "Dataplot",
+        "title": "Dataplot",
+        "definition": "",
+        "position": 7,
+        "deprecated": false
+      },
+      {
+        "id": 3495,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "DBase",
+        "title": "DBase",
+        "definition": "",
+        "position": 8,
+        "deprecated": false
+      },
+      {
+        "id": 3496,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "DIF",
+        "title": "DIF",
+        "definition": "Data interchange format suitable for use in Excel.",
+        "position": 9,
+        "deprecated": false
+      },
+      {
+        "id": 3497,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "EasyReg",
+        "title": "EasyReg",
+        "definition": "",
+        "position": 10,
+        "deprecated": false
+      },
+      {
+        "id": 3498,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "EpiInfo",
+        "title": "Epi Info",
+        "definition": "",
+        "position": 11,
+        "deprecated": false
+      },
+      {
+        "id": 3499,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "EViews",
+        "title": "EViews",
+        "definition": "",
+        "position": 12,
+        "deprecated": false
+      },
+      {
+        "id": 3500,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "GAUSS",
+        "title": "GAUSS",
+        "definition": "",
+        "position": 13,
+        "deprecated": false
+      },
+      {
+        "id": 3501,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "GoldenHelix",
+        "title": "Golden Helix",
+        "definition": "",
+        "position": 14,
+        "deprecated": false
+      },
+      {
+        "id": 3502,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "GraphPadPrism",
+        "title": "GraphPad Prism",
+        "definition": "",
+        "position": 15,
+        "deprecated": false
+      },
+      {
+        "id": 3503,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "Gretl",
+        "title": "gretl",
+        "definition": "",
+        "position": 16,
+        "deprecated": false
+      },
+      {
+        "id": 3504,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "JMP",
+        "title": "JMP",
+        "definition": "",
+        "position": 17,
+        "deprecated": false
+      },
+      {
+        "id": 3505,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "Limdep",
+        "title": "Limdep",
+        "definition": "",
+        "position": 18,
+        "deprecated": false
+      },
+      {
+        "id": 3506,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "MacAnova",
+        "title": "MacAnova",
+        "definition": "",
+        "position": 19,
+        "deprecated": false
+      },
+      {
+        "id": 3507,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "Maple",
+        "title": "Maple",
+        "definition": "",
+        "position": 20,
+        "deprecated": false
+      },
+      {
+        "id": 3508,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "Mathematica",
+        "title": "Mathematica",
+        "definition": "",
+        "position": 21,
+        "deprecated": false
+      },
+      {
+        "id": 3509,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "MatLab",
+        "title": "MatLab",
+        "definition": "",
+        "position": 22,
+        "deprecated": false
+      },
+      {
+        "id": 3510,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "MedCalc",
+        "title": "MedCalc",
+        "definition": "",
+        "position": 23,
+        "deprecated": false
+      },
+      {
+        "id": 3511,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "Minitab",
+        "title": "Minitab",
+        "definition": "",
+        "position": 24,
+        "deprecated": false
+      },
+      {
+        "id": 3512,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "ModelQED",
+        "title": "modelQED",
+        "definition": "",
+        "position": 25,
+        "deprecated": false
+      },
+      {
+        "id": 3513,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "NCSS",
+        "title": "NCSS",
+        "definition": "",
+        "position": 26,
+        "deprecated": false
+      },
+      {
+        "id": 3514,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "NSDStat",
+        "title": "NSDStat",
+        "definition": "",
+        "position": 27,
+        "deprecated": false
+      },
+      {
+        "id": 3515,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "OpenEpi",
+        "title": "OpenEpi",
+        "definition": "",
+        "position": 28,
+        "deprecated": false
+      },
+      {
+        "id": 3516,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "Origin",
+        "title": "Origin",
+        "definition": "",
+        "position": 29,
+        "deprecated": false
+      },
+      {
+        "id": 3517,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "Partek",
+        "title": "Partek",
+        "definition": "",
+        "position": 30,
+        "deprecated": false
+      },
+      {
+        "id": 3518,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "Primer",
+        "title": "Primer",
+        "definition": "",
+        "position": 31,
+        "deprecated": false
+      },
+      {
+        "id": 3519,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "PSPP",
+        "title": "PSPP",
+        "definition": "",
+        "position": 32,
+        "deprecated": false
+      },
+      {
+        "id": 3520,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "RCommander",
+        "title": "R Commander",
+        "definition": "",
+        "position": 33,
+        "deprecated": false
+      },
+      {
+        "id": 3521,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "R",
+        "title": "R",
+        "definition": "",
+        "position": 34,
+        "deprecated": false
+      },
+      {
+        "id": 3522,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "RATS",
+        "title": "RATS",
+        "definition": "",
+        "position": 35,
+        "deprecated": false
+      },
+      {
+        "id": 3523,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "RKWard",
+        "title": "RKWard",
+        "definition": "",
+        "position": 36,
+        "deprecated": false
+      },
+      {
+        "id": 3524,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "SalStat",
+        "title": "SalStat",
+        "definition": "",
+        "position": 37,
+        "deprecated": false
+      },
+      {
+        "id": 3525,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "SAS",
+        "title": "SAS",
+        "definition": "",
+        "position": 38,
+        "deprecated": false
+      },
+      {
+        "id": 3526,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "Shazam",
+        "title": "Shazam",
+        "definition": "",
+        "position": 39,
+        "deprecated": false
+      },
+      {
+        "id": 3527,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "SOCR",
+        "title": "SOCR",
+        "definition": "",
+        "position": 40,
+        "deprecated": false
+      },
+      {
+        "id": 3528,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "SPlus",
+        "title": "SPlus",
+        "definition": "",
+        "position": 41,
+        "deprecated": false
+      },
+      {
+        "id": 3529,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "SPSS",
+        "title": "SPSS",
+        "definition": "",
+        "position": 42,
+        "deprecated": false
+      },
+      {
+        "id": 3530,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "Stata",
+        "title": "Stata",
+        "definition": "",
+        "position": 43,
+        "deprecated": false
+      },
+      {
+        "id": 3531,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "Statistica",
+        "title": "Statistica",
+        "definition": "",
+        "position": 44,
+        "deprecated": false
+      },
+      {
+        "id": 3532,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "SUDAAN",
+        "title": "SUDAAN",
+        "definition": "",
+        "position": 45,
+        "deprecated": false
+      },
+      {
+        "id": 3533,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "TSP",
+        "title": "TSP",
+        "definition": "",
+        "position": 46,
+        "deprecated": false
+      },
+      {
+        "id": 3534,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]",
+        "notation": "Other",
+        "title": "Other",
+        "definition": "Use if the software package is known, but not found in the list.",
+        "position": 47,
+        "deprecated": false
+      }
+    ]
+  },
+  {
+    "name": "cdcPublishernames",
+    "data": [
+      {
+        "id": 15650,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "AUSSDA",
+        "title": "Austrian Social Science Data Archive (AUSSDA)",
+        "definition": "",
+        "previousConcept": 14129,
+        "position": 0,
+        "deprecated": false
+      },
+      {
+        "id": 15641,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "CSDA",
+        "title": "Czech Social Science Data Archive (ČSDA)",
+        "definition": "",
+        "previousConcept": 14114,
+        "position": 1,
+        "deprecated": false
+      },
+      {
+        "id": 15659,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "DNA",
+        "title": "Danish National Archives (DNA)",
+        "definition": "",
+        "previousConcept": 14119,
+        "position": 2,
+        "deprecated": false
+      },
+      {
+        "id": 15653,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "DANS",
+        "title": "DANS-KNAW",
+        "definition": "Netherlands",
+        "previousConcept": 14120,
+        "position": 3,
+        "deprecated": false
+      },
+      {
+        "id": 15655,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "FORS",
+        "title": "FORS - Swiss Centre of Expertise in the Social Sciences",
+        "definition": "",
+        "previousConcept": 14117,
+        "position": 4,
+        "deprecated": false
+      },
+      {
+        "id": 15651,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "FSD",
+        "title": "Finnish Social Science Data Archive (FSD)",
+        "definition": "",
+        "previousConcept": 14127,
+        "position": 5,
+        "deprecated": false
+      },
+      {
+        "id": 15658,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "GESIS",
+        "title": "GESIS - Leibniz Institute for the Social Sciences",
+        "definition": "Germany",
+        "previousConcept": 14122,
+        "position": 6,
+        "deprecated": false
+      },
+      {
+        "id": 15656,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "APIS",
+        "title": "Portuguese Archive of Social Information (APIS)",
+        "definition": "",
+        "previousConcept": 14128,
+        "position": 7,
+        "deprecated": false
+      },
+      {
+        "id": 15647,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "ProgedoCDSP",
+        "title": "PROGEDO: Center for Socio-Political Data (CDSP)",
+        "definition": "France",
+        "previousConcept": 14113,
+        "position": 8,
+        "deprecated": false
+      },
+      {
+        "id": 15643,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "ProgedoCNRS",
+        "title": "PROGEDO: CNRS",
+        "definition": "France",
+        "previousConcept": 14112,
+        "position": 9,
+        "deprecated": false
+      },
+      {
+        "id": 15654,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "Progedo",
+        "title": "PROGEDO",
+        "definition": "France",
+        "previousConcept": 14115,
+        "position": 10,
+        "deprecated": false
+      },
+      {
+        "id": 15642,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "Sikt",
+        "title": "Sikt - Norwegian Agency for Shared Services in Education and Research",
+        "definition": "",
+        "previousConcept": 14116,
+        "position": 11,
+        "deprecated": false
+      },
+      {
+        "id": 15644,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "SASD",
+        "title": "Slovak Archive of Social Data (SASD)",
+        "definition": "",
+        "previousConcept": 14118,
+        "position": 12,
+        "deprecated": false
+      },
+      {
+        "id": 15646,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "ADP",
+        "title": "Slovenian Social Science Data Archives (ADP)",
+        "definition": "",
+        "previousConcept": 14124,
+        "position": 13,
+        "deprecated": false
+      },
+      {
+        "id": 15657,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "SODHA",
+        "title": "Social Sciences and Digital Humanities Archive (SODHA)",
+        "definition": "Belgium",
+        "previousConcept": 14126,
+        "position": 14,
+        "deprecated": false
+      },
+      {
+        "id": 15649,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "SoDaNet",
+        "title": "SoDaNet - Greek Research Infrastructure for Social Science",
+        "definition": "",
+        "previousConcept": 14111,
+        "position": 15,
+        "deprecated": false
+      },
+      {
+        "id": 15648,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "SND",
+        "title": "Swedish National Data Service (SND)",
+        "definition": "",
+        "previousConcept": 14123,
+        "position": 16,
+        "deprecated": false
+      },
+      {
+        "id": 15652,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "UKDS",
+        "title": "UK Data Service",
+        "definition": "",
+        "previousConcept": 14125,
+        "position": 17,
+        "deprecated": false
+      },
+      {
+        "id": 15645,
+        "uri": "https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0",
+        "notation": "UniData",
+        "title": "UniData - Bicocca Data Archive",
+        "definition": "Italy",
+        "previousConcept": 14121,
+        "position": 18,
         "deprecated": false
       }
     ]
@@ -4913,496 +5188,6 @@
         "title": "Other",
         "definition": "Use if the date type is known, but not found in the list.",
         "position": 10,
-        "deprecated": false
-      }
-    ]
-  },
-  {
-    "name": "TypeofNote",
-    "data": [
-      {
-        "id": 8807,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]",
-        "notation": "Processing",
-        "title": "Processing note",
-        "definition": "A note related to the processing of the data, or metadata, or both.",
-        "previousConcept": 3545,
-        "position": 0,
-        "deprecated": false
-      },
-      {
-        "id": 8811,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]",
-        "notation": "Addendum",
-        "title": "Addendum",
-        "definition": "Additional information, usually of a factual nature (as opposed to a comment), intended to clarify the content of a DDI section or module.",
-        "previousConcept": 3546,
-        "position": 1,
-        "deprecated": false
-      },
-      {
-        "id": 8809,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]",
-        "notation": "System",
-        "title": "System note",
-        "definition": "A note generated by the processing system used to produce the data, or metadata, or both.",
-        "previousConcept": 3547,
-        "position": 2,
-        "deprecated": false
-      },
-      {
-        "id": 8810,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]",
-        "notation": "Observation",
-        "title": "Observation",
-        "definition": "A note providing information on an aspect relevant for data usage that is likely to remain permanent, or a temporary note providing information for further review and correction. May be an observation entered by a human user or a system-generated note on any inconsistencies or deviations.",
-        "previousConcept": 3548,
-        "position": 3,
-        "deprecated": false
-      },
-      {
-        "id": 8806,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]",
-        "notation": "Comment",
-        "title": "Comment",
-        "definition": "A human-readable comment, typically of a more subjective nature than an addendum.",
-        "previousConcept": 3549,
-        "position": 4,
-        "deprecated": false
-      },
-      {
-        "id": 8808,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]",
-        "notation": "Other",
-        "title": "Other",
-        "definition": "Use when the type of note is known, but not found in the list.",
-        "previousConcept": 3550,
-        "position": 5,
-        "deprecated": false
-      }
-    ]
-  },
-  {
-    "name": "LanguageProficiency",
-    "data": [
-      {
-        "id": 3185,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
-        "notation": "Native",
-        "title": "Native",
-        "definition": "The individual is a native user of the language whose level of proficiency is unknown/unspecified.",
-        "position": 0,
-        "deprecated": false
-      },
-      {
-        "id": 3187,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
-        "notation": "Native.Fluent",
-        "title": "Native: Fluent",
-        "definition": "The individual is a native user with excellent mastery of the language, including breadth of vocabulary and idiom, and confident command of the grammar.",
-        "parent": "Native",
-        "position": 1,
-        "deprecated": false
-      },
-      {
-        "id": 3188,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
-        "notation": "Native.Good",
-        "title": "Native: Good",
-        "definition": "The individual is a native user of the language with good structural accuracy, vocabulary and comprehension.",
-        "parent": "Native",
-        "position": 2,
-        "deprecated": false
-      },
-      {
-        "id": 3189,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
-        "notation": "Native.Basic",
-        "title": "Native: Basic",
-        "definition": "The individual is a native user of the language with limited vocabulary, use of grammar and comprehension.",
-        "parent": "Native",
-        "position": 3,
-        "deprecated": false
-      },
-      {
-        "id": 3190,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
-        "notation": "NonNative",
-        "title": "Non-native",
-        "definition": "The individual is a non-native user of the language whose level of proficiency is unknown/unspecified.",
-        "position": 4,
-        "deprecated": false
-      },
-      {
-        "id": 3191,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
-        "notation": "NonNative.Fluent",
-        "title": "Non-native: Fluent",
-        "definition": "The individual is a non-native user with excellent mastery of the language, including breadth of vocabulary and idiom, and confident command of the grammar.",
-        "parent": "NonNative",
-        "position": 5,
-        "deprecated": false
-      },
-      {
-        "id": 3192,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
-        "notation": "NonNative.Good",
-        "title": "Non-native: Good",
-        "definition": "The individual is a non-native user of the language with good structural accuracy, vocabulary and comprehension.",
-        "parent": "NonNative",
-        "position": 6,
-        "deprecated": false
-      },
-      {
-        "id": 3193,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
-        "notation": "NonNative.Basic",
-        "title": "Non-native: Basic",
-        "definition": "The individual is a non-native user of the language with limited vocabulary, use of grammar and comprehension.",
-        "parent": "NonNative",
-        "position": 7,
-        "deprecated": false
-      },
-      {
-        "id": 3194,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
-        "notation": "NativeStatusUnspecified",
-        "title": "Unspecified native status",
-        "definition": "The individual's native status and her/his level of proficiency are both unknown, or not specified.",
-        "position": 8,
-        "deprecated": false
-      },
-      {
-        "id": 3195,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
-        "notation": "NativeStatusUnspecified.Fluent",
-        "title": "Unspecified native status: Fluent",
-        "definition": "The individual's native status is unknown/unspecified; s/he has excellent mastery of the language, including breadth of vocabulary and idiom, and confident command of the grammar.",
-        "parent": "NativeStatusUnspecified",
-        "position": 9,
-        "deprecated": false
-      },
-      {
-        "id": 3196,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
-        "notation": "NativeStatusUnspecified.Good",
-        "title": "Unspecified native status: Good",
-        "definition": "The individual's native status is unknown/unspecified; s/he has good structural accuracy, vocabulary and comprehension.",
-        "parent": "NativeStatusUnspecified",
-        "position": 10,
-        "deprecated": false
-      },
-      {
-        "id": 3197,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
-        "notation": "NativeStatusUnspecified.Basic",
-        "title": "Unspecified native status: Basic",
-        "definition": "The individual's native status is unknown/unspecified; s/he has limited vocabulary, use of grammar, and comprehension.",
-        "parent": "NativeStatusUnspecified",
-        "position": 11,
-        "deprecated": false
-      },
-      {
-        "id": 3198,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]",
-        "notation": "Other",
-        "title": "Other",
-        "definition": "Use if level of proficiency is known, but not found in the list. It is recommended that any new entry combine information about the individual's native/non-native status and his/her level of proficiency, following the format [native status].[proficiency level] as shown in the entries above.",
-        "position": 12,
-        "deprecated": false
-      }
-    ]
-  },
-  {
-    "name": "TypeofAddress",
-    "data": [
-      {
-        "id": 8812,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]",
-        "notation": "Mailing",
-        "title": "Mailing address",
-        "definition": "Includes both \"street\", and P.O. Box addresses used for sending and receiving physical/conventional mail through the postal system.",
-        "previousConcept": 3535,
-        "position": 0,
-        "deprecated": false
-      },
-      {
-        "id": 8817,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]",
-        "notation": "Mailing.Residential",
-        "title": "Mailing address: Residential",
-        "definition": "Address for directing physical/conventional mail to a person's residence, including institutional residence.",
-        "previousConcept": 3536,
-        "parent": "Mailing",
-        "position": 1,
-        "deprecated": false
-      },
-      {
-        "id": 8814,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]",
-        "notation": "Mailing.Nonresidential",
-        "title": "Mailing address: Nonresidential",
-        "definition": "Address for directing physical/conventional mail to a business, organization, or other type of association.",
-        "previousConcept": 3537,
-        "parent": "Mailing",
-        "position": 2,
-        "deprecated": false
-      },
-      {
-        "id": 8818,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]",
-        "notation": "Visiting",
-        "title": "Visiting address",
-        "definition": "Address used to identify a physical location (typically a building or a unit in a building) that may be accessed in person.",
-        "previousConcept": 3538,
-        "position": 3,
-        "deprecated": false
-      },
-      {
-        "id": 8816,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]",
-        "notation": "Visiting.Residential",
-        "title": "Visiting address: Residential",
-        "definition": "Visiting address for a person's residence, including institutional residence.",
-        "previousConcept": 3539,
-        "parent": "Visiting",
-        "position": 4,
-        "deprecated": false
-      },
-      {
-        "id": 8815,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]",
-        "notation": "Visiting.Nonresidential",
-        "title": "Visiting address: Nonresidential",
-        "definition": "Visiting address for a business, organization, or other type of association.",
-        "previousConcept": 3540,
-        "parent": "Visiting",
-        "position": 5,
-        "deprecated": false
-      },
-      {
-        "id": 8813,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]",
-        "notation": "Other",
-        "title": "Other",
-        "definition": "Use if type of address is known, but not found in the list.",
-        "previousConcept": 3541,
-        "position": 6,
-        "deprecated": false
-      }
-    ]
-  },
-  {
-    "name": "TimeMethod",
-    "data": [
-      {
-        "id": 5329,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
-        "notation": "Longitudinal",
-        "title": "Longitudinal",
-        "definition": "Data collected repeatedly over time to allow studying change in a population. At least some of the questions or modules are repeated over waves. Use the broad term when none of the subterms is suitable.",
-        "position": 0,
-        "deprecated": false
-      },
-      {
-        "id": 5330,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
-        "notation": "Longitudinal.CohortEventBased",
-        "title": "Longitudinal: Cohort/Event-based",
-        "definition": "Data collected over time from the same cohort of respondents. The individuals in the cohort are connected in some way or have shared some significant experience within a given period. In some cases, the samples may differ between waves but are drawn from the same cohort. Examples: birth year, disease (clinical trials), common problem (intervention studies), education, employment, family formation, participation in an event.",
-        "parent": "Longitudinal",
-        "position": 1,
-        "deprecated": false
-      },
-      {
-        "id": 5331,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
-        "notation": "Longitudinal.TrendRepeatedCrossSection",
-        "title": "Longitudinal: Trend/Repeated cross-section",
-        "definition": "Data collected from different samples or different groups of people from the same population at several points in time, using at least partly the same set of questions/variables. Conclusions are drawn for the population. Examples: European Social Survey (ESS), national longitudinal crime surveys.",
-        "parent": "Longitudinal",
-        "position": 2,
-        "deprecated": false
-      },
-      {
-        "id": 5332,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
-        "notation": "Longitudinal.Panel",
-        "title": "Longitudinal: Panel",
-        "definition": "Data collected over time from, or about, the same sample of respondents. Differs from cohort/event-based data in that the selection of respondents is not based on their being connected in some way or having shared some significant experience.",
-        "parent": "Longitudinal",
-        "position": 3,
-        "deprecated": false
-      },
-      {
-        "id": 5341,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
-        "notation": "Longitudinal.Panel.Continuous",
-        "title": "Longitudinal: Panel: Continuous",
-        "definition": "Data collected from a panel of respondents on a regular basis.",
-        "parent": "Longitudinal.Panel",
-        "position": 4,
-        "deprecated": false
-      },
-      {
-        "id": 5334,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
-        "notation": "Longitudinal.Panel.Interval",
-        "title": "Longitudinal: Panel: Interval",
-        "definition": "Data collected from a panel of respondents only when information is needed.",
-        "parent": "Longitudinal.Panel",
-        "position": 5,
-        "deprecated": false
-      },
-      {
-        "id": 5335,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
-        "notation": "TimeSeries",
-        "title": "Time series",
-        "definition": "Data collected repeatedly over time to study change in observations. These are typically \"objective\" measurements of phenomena that can be observed externally, as opposed to attitudes/opinions or feelings. Examples may include economic/financial indicators, natural/meteorological phenomena, vital statistics, etc.",
-        "position": 6,
-        "deprecated": false
-      },
-      {
-        "id": 5336,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
-        "notation": "TimeSeries.Continuous",
-        "title": "Time series: Continuous",
-        "definition": "Measurements are taken at every instant in time. Examples: lie detectors, electrocardiograms, etc.",
-        "parent": "TimeSeries",
-        "position": 7,
-        "deprecated": false
-      },
-      {
-        "id": 5337,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
-        "notation": "TimeSeries.Discrete",
-        "title": "Time series: Discrete",
-        "definition": "Measurements are taken at (usually regularly) spaced intervals. Examples: macroeconomics (weekly share prices, monthly profits, sales); meteorology (hourly temperature); measurements of individuals (blood pressure, weight, height); sociology (crime figures, employment figures), etc.",
-        "parent": "TimeSeries",
-        "position": 8,
-        "deprecated": false
-      },
-      {
-        "id": 5338,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
-        "notation": "CrossSection",
-        "title": "Cross-section",
-        "definition": "Data collected by observing subjects within the study period, without regard to changes over time. May include more than one collection event. Analysis of cross-sectional data often consists in comparing the differences and similarities among subjects.",
-        "position": 9,
-        "deprecated": false
-      },
-      {
-        "id": 5339,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
-        "notation": "CrossSectionAdHocFollowUp",
-        "title": "Cross-section ad-hoc follow-up",
-        "definition": "Data collected at one point in time to complete information collected in a previous cross-sectional study; the decision to collect follow-up data was not included in the original study design.",
-        "position": 10,
-        "deprecated": false
-      },
-      {
-        "id": 5340,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
-        "notation": "Other",
-        "title": "Other",
-        "definition": "Use if the time method is known, but not found in the list.",
-        "position": 11,
-        "deprecated": false
-      }
-    ]
-  },
-  {
-    "name": "GeneralDataFormat",
-    "data": [
-      {
-        "id": 1329,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
-        "notation": "Numeric",
-        "title": "Numeric",
-        "definition": "Data consisting largely of values expressed as digits from 0 to 9 and, optionally, signs for negative values, decimal points, or letters only when intended to represent numbers (for example, A-F or a-f in hexadecimal).",
-        "position": 0,
-        "deprecated": false
-      },
-      {
-        "id": 1330,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
-        "notation": "Text",
-        "title": "Text",
-        "definition": "Data consisting largely of text, including letters, numbers, and special characters or symbols used in writing for punctuation, abbreviation, etc. For example, interview transcriptions, narratives or essays written by study participants, newspaper articles, etc.",
-        "position": 1,
-        "deprecated": false
-      },
-      {
-        "id": 1331,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
-        "notation": "StillImage",
-        "title": "Still image",
-        "definition": "Static images, such as graphs, drawings, photographs, diagnostic/medical images like X-rays, etc.",
-        "position": 2,
-        "deprecated": false
-      },
-      {
-        "id": 1332,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
-        "notation": "Geospatial",
-        "title": "Geospatial",
-        "definition": "Geospatial data are any type of data with spatial coordinates that allow them to be mapped to the Earth's surface. They can represent physical objects, discrete areas or continuous surfaces. Discrete geospatial data are usually represented using vector data consisting of points, lines and polygons, while continuous geospatial data are usually represented by raster data, consisting of a grid of cells that each has its own value. Any number of applications in a wide range of areas produce geospatial data, such as GIS, Remote Sensing equipment, GPS units, archaeological total stations, manual mapping and computer-aided design (CAD), in a number of formats, including images, vector, text, and tabular data. Vector-based geospatial data include tables listing archaeological sites along with their coordinates, text-based files (e.g. XML) containing coordinates and topology for historic road networks, voting figures for political parties by administrative area. Raster-based geospatial data include satellite images, aerial photographs, scanned maps, and digital maps of elevations, vegetation, land-use, sea surface temperatures, air pollution, soil-types, etc.",
-        "position": 3,
-        "deprecated": false
-      },
-      {
-        "id": 1333,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
-        "notation": "Audio",
-        "title": "Audio",
-        "definition": "Recorded sound, including voice, music, etc.",
-        "position": 4,
-        "deprecated": false
-      },
-      {
-        "id": 1334,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
-        "notation": "Video",
-        "title": "Video",
-        "definition": "Moving images. May include films, animation, digital recordings, visual output from simulations, recorded television programs, etc. May be mute or may include synchronized sound.",
-        "position": 5,
-        "deprecated": false
-      },
-      {
-        "id": 1335,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
-        "notation": "Software",
-        "title": "Software",
-        "definition": "Computer program(s) in source code (human-readable) or compiled form.",
-        "position": 6,
-        "deprecated": false
-      },
-      {
-        "id": 1336,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
-        "notation": "InteractiveResource",
-        "title": "Interactive resource",
-        "definition": "A resource requiring interaction from the user to be understood, executed, or experienced. For example, training modules, query/response portals, files that require action from the user, etc.",
-        "position": 7,
-        "deprecated": false
-      },
-      {
-        "id": 1337,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
-        "notation": "ThreeD",
-        "title": "3D",
-        "definition": "Virtual three-dimensional representations of objects, architecture, places, etc.",
-        "position": 8,
-        "deprecated": false
-      },
-      {
-        "id": 1338,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
-        "notation": "Other",
-        "title": "Other",
-        "definition": "Use when the kind of data format is known, but not found in the list.",
-        "position": 9,
         "deprecated": false
       }
     ]
@@ -5885,139 +5670,96 @@
     ]
   },
   {
-    "name": "TypeofInstrument",
+    "name": "GeneralDataFormat",
     "data": [
       {
-        "id": 1810,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
-        "notation": "Questionnaire",
-        "title": "Questionnaire",
-        "definition": "Set of pre-determined questions presented to study participants.",
+        "id": 1329,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
+        "notation": "Numeric",
+        "title": "Numeric",
+        "definition": "Data consisting largely of values expressed as digits from 0 to 9 and, optionally, signs for negative values, decimal points, or letters only when intended to represent numbers (for example, A-F or a-f in hexadecimal).",
         "position": 0,
         "deprecated": false
       },
       {
-        "id": 1811,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
-        "notation": "Questionnaire.Structured",
-        "title": "Structured questionnaire",
-        "definition": "Set of pre-determined questions, a great majority of which are closed-ended, although there may be a small proportion of open-ended questions.",
-        "parent": "Questionnaire",
+        "id": 1330,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
+        "notation": "Text",
+        "title": "Text",
+        "definition": "Data consisting largely of text, including letters, numbers, and special characters or symbols used in writing for punctuation, abbreviation, etc. For example, interview transcriptions, narratives or essays written by study participants, newspaper articles, etc.",
         "position": 1,
         "deprecated": false
       },
       {
-        "id": 1812,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
-        "notation": "Questionnaire.Semistructured",
-        "title": "Semi-structured questionnaire",
-        "definition": "Set of pre-determined questions, a significant proportion of which are open-ended (roughly one third to two thirds), and the rest are closed-ended.",
-        "parent": "Questionnaire",
+        "id": 1331,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
+        "notation": "StillImage",
+        "title": "Still image",
+        "definition": "Static images, such as graphs, drawings, photographs, diagnostic/medical images like X-rays, etc.",
         "position": 2,
         "deprecated": false
       },
       {
-        "id": 1813,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
-        "notation": "Questionnaire.Unstructured",
-        "title": "Unstructured questionnaire",
-        "definition": "Set of pre-determined questions, a great majority of which are open-ended, although there may be a small proportion of close-ended questions.",
-        "parent": "Questionnaire",
+        "id": 1332,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
+        "notation": "Geospatial",
+        "title": "Geospatial",
+        "definition": "Geospatial data are any type of data with spatial coordinates that allow them to be mapped to the Earth's surface. They can represent physical objects, discrete areas or continuous surfaces. Discrete geospatial data are usually represented using vector data consisting of points, lines and polygons, while continuous geospatial data are usually represented by raster data, consisting of a grid of cells that each has its own value. Any number of applications in a wide range of areas produce geospatial data, such as GIS, Remote Sensing equipment, GPS units, archaeological total stations, manual mapping and computer-aided design (CAD), in a number of formats, including images, vector, text, and tabular data. Vector-based geospatial data include tables listing archaeological sites along with their coordinates, text-based files (e.g. XML) containing coordinates and topology for historic road networks, voting figures for political parties by administrative area. Raster-based geospatial data include satellite images, aerial photographs, scanned maps, and digital maps of elevations, vegetation, land-use, sea surface temperatures, air pollution, soil-types, etc.",
         "position": 3,
         "deprecated": false
       },
       {
-        "id": 1814,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
-        "notation": "InterviewSchemeAndThemes",
-        "title": "Interview scheme and/or themes",
-        "definition": "Themes, topics, and/or questions used in an interview. Can vary between loosely defined themes to more exactly formulated questions. There is more flexibility than in an unstructured questionnaire regarding which questions are asked of each participant and how they are conveyed.",
+        "id": 1333,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
+        "notation": "Audio",
+        "title": "Audio",
+        "definition": "Recorded sound, including voice, music, etc.",
         "position": 4,
         "deprecated": false
       },
       {
-        "id": 1815,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
-        "notation": "DataCollectionGuidelines",
-        "title": "Data collection guidelines",
-        "definition": "Directions or instructions regarding the methods and procedures to be used for collecting the data. Use a more specific term if possible.",
+        "id": 1334,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
+        "notation": "Video",
+        "title": "Video",
+        "definition": "Moving images. May include films, animation, digital recordings, visual output from simulations, recorded television programs, etc. May be mute or may include synchronized sound.",
         "position": 5,
         "deprecated": false
       },
       {
-        "id": 1816,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
-        "notation": "DataCollectionGuidelines.ObservationGuide",
-        "title": "Data collection guidelines: Observation guide",
-        "definition": "Guidelines regarding what will be observed. Depending on the study design, an observation guide can be more or less structured, ranging from exact specifications and scales to loosely formulated ideas.",
-        "parent": "DataCollectionGuidelines",
+        "id": 1335,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
+        "notation": "Software",
+        "title": "Software",
+        "definition": "Computer program(s) in source code (human-readable) or compiled form.",
         "position": 6,
         "deprecated": false
       },
       {
-        "id": 1817,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
-        "notation": "DataCollectionGuidelines.DiscussionGuide",
-        "title": "Data collection guidelines: Discussion guide",
-        "definition": "Guidelines for a group discussion. Depending on the study design, a discussion guide can be more or less structured, ranging from exactly formulated questions to general ideas on what to discuss. For example, a list of topics to be discussed in a focus group, or themes formulated by a researcher to direct a blog discussion, etc.",
-        "parent": "DataCollectionGuidelines",
+        "id": 1336,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
+        "notation": "InteractiveResource",
+        "title": "Interactive resource",
+        "definition": "A resource requiring interaction from the user to be understood, executed, or experienced. For example, training modules, query/response portals, files that require action from the user, etc.",
         "position": 7,
         "deprecated": false
       },
       {
-        "id": 1818,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
-        "notation": "DataCollectionGuidelines.SelfAdministeredWritingsGuide",
-        "title": "Data collection guidelines: Self-administered writings guide",
-        "definition": "Guidelines regarding the desired, or expected content of self-written personal accounts or narratives from potential participants. The instructions can be supplied as part of the writing invitation or separately. For example, an invitation asking people suffering from a specific disease or disability to describe how it affects their feelings, social relations, and everyday life; or a writing invitation asking people to keep a diary of books read during a period of six months and the thoughts provoked by the books.",
-        "parent": "DataCollectionGuidelines",
+        "id": 1337,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
+        "notation": "ThreeD",
+        "title": "3D",
+        "definition": "Virtual three-dimensional representations of objects, architecture, places, etc.",
         "position": 8,
         "deprecated": false
       },
       {
-        "id": 1819,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
-        "notation": "DataCollectionGuidelines.SecondaryDataCollectionGuide",
-        "title": "Data collection guidelines: Secondary data collection guide",
-        "definition": "Guidelines specifying what data are to be collected from previously existing sources originally created for other purposes. For example, directions on how to select and code data from qualitative sources to create a quantitative dataset.",
-        "parent": "DataCollectionGuidelines",
-        "position": 9,
-        "deprecated": false
-      },
-      {
-        "id": 1820,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
-        "notation": "ParticipantTasks",
-        "title": "Participant tasks",
-        "definition": "A description of tasks that participants are asked to carry out as a part of the data collection process. For example, marking places on a map, taking photographs, telling a fairy tale, etc.",
-        "position": 10,
-        "deprecated": false
-      },
-      {
-        "id": 1821,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
-        "notation": "TechnicalInstruments",
-        "title": "Technical instrument(s)",
-        "definition": "Instruments used to collect objective data like measurements, images, etc. For example, chronometers, scales, speedometers, blood pressure monitors, thermometers, x-ray machines, etc.",
-        "position": 11,
-        "deprecated": false
-      },
-      {
-        "id": 1822,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
-        "notation": "ProgrammingScript",
-        "title": "Programming script",
-        "definition": "Programming script written in a data query language that is used to extract specific data, for instance from online social networks.",
-        "position": 12,
-        "deprecated": false
-      },
-      {
-        "id": 1823,
-        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
+        "id": 1338,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]",
         "notation": "Other",
         "title": "Other",
-        "definition": "Use when the type of instrument is known, but not found in the list.",
-        "position": 13,
+        "definition": "Use when the kind of data format is known, but not found in the list.",
+        "position": 9,
         "deprecated": false
       }
     ]
@@ -6243,6 +5985,264 @@
         "title": "Other",
         "definition": "Use when the data source is known, but not found in the list.",
         "position": 22,
+        "deprecated": false
+      }
+    ]
+  },
+  {
+    "name": "TypeofInstrument",
+    "data": [
+      {
+        "id": 1810,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
+        "notation": "Questionnaire",
+        "title": "Questionnaire",
+        "definition": "Set of pre-determined questions presented to study participants.",
+        "position": 0,
+        "deprecated": false
+      },
+      {
+        "id": 1811,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
+        "notation": "Questionnaire.Structured",
+        "title": "Structured questionnaire",
+        "definition": "Set of pre-determined questions, a great majority of which are closed-ended, although there may be a small proportion of open-ended questions.",
+        "parent": "Questionnaire",
+        "position": 1,
+        "deprecated": false
+      },
+      {
+        "id": 1812,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
+        "notation": "Questionnaire.Semistructured",
+        "title": "Semi-structured questionnaire",
+        "definition": "Set of pre-determined questions, a significant proportion of which are open-ended (roughly one third to two thirds), and the rest are closed-ended.",
+        "parent": "Questionnaire",
+        "position": 2,
+        "deprecated": false
+      },
+      {
+        "id": 1813,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
+        "notation": "Questionnaire.Unstructured",
+        "title": "Unstructured questionnaire",
+        "definition": "Set of pre-determined questions, a great majority of which are open-ended, although there may be a small proportion of close-ended questions.",
+        "parent": "Questionnaire",
+        "position": 3,
+        "deprecated": false
+      },
+      {
+        "id": 1814,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
+        "notation": "InterviewSchemeAndThemes",
+        "title": "Interview scheme and/or themes",
+        "definition": "Themes, topics, and/or questions used in an interview. Can vary between loosely defined themes to more exactly formulated questions. There is more flexibility than in an unstructured questionnaire regarding which questions are asked of each participant and how they are conveyed.",
+        "position": 4,
+        "deprecated": false
+      },
+      {
+        "id": 1815,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
+        "notation": "DataCollectionGuidelines",
+        "title": "Data collection guidelines",
+        "definition": "Directions or instructions regarding the methods and procedures to be used for collecting the data. Use a more specific term if possible.",
+        "position": 5,
+        "deprecated": false
+      },
+      {
+        "id": 1816,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
+        "notation": "DataCollectionGuidelines.ObservationGuide",
+        "title": "Data collection guidelines: Observation guide",
+        "definition": "Guidelines regarding what will be observed. Depending on the study design, an observation guide can be more or less structured, ranging from exact specifications and scales to loosely formulated ideas.",
+        "parent": "DataCollectionGuidelines",
+        "position": 6,
+        "deprecated": false
+      },
+      {
+        "id": 1817,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
+        "notation": "DataCollectionGuidelines.DiscussionGuide",
+        "title": "Data collection guidelines: Discussion guide",
+        "definition": "Guidelines for a group discussion. Depending on the study design, a discussion guide can be more or less structured, ranging from exactly formulated questions to general ideas on what to discuss. For example, a list of topics to be discussed in a focus group, or themes formulated by a researcher to direct a blog discussion, etc.",
+        "parent": "DataCollectionGuidelines",
+        "position": 7,
+        "deprecated": false
+      },
+      {
+        "id": 1818,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
+        "notation": "DataCollectionGuidelines.SelfAdministeredWritingsGuide",
+        "title": "Data collection guidelines: Self-administered writings guide",
+        "definition": "Guidelines regarding the desired, or expected content of self-written personal accounts or narratives from potential participants. The instructions can be supplied as part of the writing invitation or separately. For example, an invitation asking people suffering from a specific disease or disability to describe how it affects their feelings, social relations, and everyday life; or a writing invitation asking people to keep a diary of books read during a period of six months and the thoughts provoked by the books.",
+        "parent": "DataCollectionGuidelines",
+        "position": 8,
+        "deprecated": false
+      },
+      {
+        "id": 1819,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
+        "notation": "DataCollectionGuidelines.SecondaryDataCollectionGuide",
+        "title": "Data collection guidelines: Secondary data collection guide",
+        "definition": "Guidelines specifying what data are to be collected from previously existing sources originally created for other purposes. For example, directions on how to select and code data from qualitative sources to create a quantitative dataset.",
+        "parent": "DataCollectionGuidelines",
+        "position": 9,
+        "deprecated": false
+      },
+      {
+        "id": 1820,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
+        "notation": "ParticipantTasks",
+        "title": "Participant tasks",
+        "definition": "A description of tasks that participants are asked to carry out as a part of the data collection process. For example, marking places on a map, taking photographs, telling a fairy tale, etc.",
+        "position": 10,
+        "deprecated": false
+      },
+      {
+        "id": 1821,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
+        "notation": "TechnicalInstruments",
+        "title": "Technical instrument(s)",
+        "definition": "Instruments used to collect objective data like measurements, images, etc. For example, chronometers, scales, speedometers, blood pressure monitors, thermometers, x-ray machines, etc.",
+        "position": 11,
+        "deprecated": false
+      },
+      {
+        "id": 1822,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
+        "notation": "ProgrammingScript",
+        "title": "Programming script",
+        "definition": "Programming script written in a data query language that is used to extract specific data, for instance from online social networks.",
+        "position": 12,
+        "deprecated": false
+      },
+      {
+        "id": 1823,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]",
+        "notation": "Other",
+        "title": "Other",
+        "definition": "Use when the type of instrument is known, but not found in the list.",
+        "position": 13,
+        "deprecated": false
+      }
+    ]
+  },
+  {
+    "name": "TimeMethod",
+    "data": [
+      {
+        "id": 5329,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
+        "notation": "Longitudinal",
+        "title": "Longitudinal",
+        "definition": "Data collected repeatedly over time to allow studying change in a population. At least some of the questions or modules are repeated over waves. Use the broad term when none of the subterms is suitable.",
+        "position": 0,
+        "deprecated": false
+      },
+      {
+        "id": 5330,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
+        "notation": "Longitudinal.CohortEventBased",
+        "title": "Longitudinal: Cohort/Event-based",
+        "definition": "Data collected over time from the same cohort of respondents. The individuals in the cohort are connected in some way or have shared some significant experience within a given period. In some cases, the samples may differ between waves but are drawn from the same cohort. Examples: birth year, disease (clinical trials), common problem (intervention studies), education, employment, family formation, participation in an event.",
+        "parent": "Longitudinal",
+        "position": 1,
+        "deprecated": false
+      },
+      {
+        "id": 5331,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
+        "notation": "Longitudinal.TrendRepeatedCrossSection",
+        "title": "Longitudinal: Trend/Repeated cross-section",
+        "definition": "Data collected from different samples or different groups of people from the same population at several points in time, using at least partly the same set of questions/variables. Conclusions are drawn for the population. Examples: European Social Survey (ESS), national longitudinal crime surveys.",
+        "parent": "Longitudinal",
+        "position": 2,
+        "deprecated": false
+      },
+      {
+        "id": 5332,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
+        "notation": "Longitudinal.Panel",
+        "title": "Longitudinal: Panel",
+        "definition": "Data collected over time from, or about, the same sample of respondents. Differs from cohort/event-based data in that the selection of respondents is not based on their being connected in some way or having shared some significant experience.",
+        "parent": "Longitudinal",
+        "position": 3,
+        "deprecated": false
+      },
+      {
+        "id": 5341,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
+        "notation": "Longitudinal.Panel.Continuous",
+        "title": "Longitudinal: Panel: Continuous",
+        "definition": "Data collected from a panel of respondents on a regular basis.",
+        "parent": "Longitudinal.Panel",
+        "position": 4,
+        "deprecated": false
+      },
+      {
+        "id": 5334,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
+        "notation": "Longitudinal.Panel.Interval",
+        "title": "Longitudinal: Panel: Interval",
+        "definition": "Data collected from a panel of respondents only when information is needed.",
+        "parent": "Longitudinal.Panel",
+        "position": 5,
+        "deprecated": false
+      },
+      {
+        "id": 5335,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
+        "notation": "TimeSeries",
+        "title": "Time series",
+        "definition": "Data collected repeatedly over time to study change in observations. These are typically \"objective\" measurements of phenomena that can be observed externally, as opposed to attitudes/opinions or feelings. Examples may include economic/financial indicators, natural/meteorological phenomena, vital statistics, etc.",
+        "position": 6,
+        "deprecated": false
+      },
+      {
+        "id": 5336,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
+        "notation": "TimeSeries.Continuous",
+        "title": "Time series: Continuous",
+        "definition": "Measurements are taken at every instant in time. Examples: lie detectors, electrocardiograms, etc.",
+        "parent": "TimeSeries",
+        "position": 7,
+        "deprecated": false
+      },
+      {
+        "id": 5337,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
+        "notation": "TimeSeries.Discrete",
+        "title": "Time series: Discrete",
+        "definition": "Measurements are taken at (usually regularly) spaced intervals. Examples: macroeconomics (weekly share prices, monthly profits, sales); meteorology (hourly temperature); measurements of individuals (blood pressure, weight, height); sociology (crime figures, employment figures), etc.",
+        "parent": "TimeSeries",
+        "position": 8,
+        "deprecated": false
+      },
+      {
+        "id": 5338,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
+        "notation": "CrossSection",
+        "title": "Cross-section",
+        "definition": "Data collected by observing subjects within the study period, without regard to changes over time. May include more than one collection event. Analysis of cross-sectional data often consists in comparing the differences and similarities among subjects.",
+        "position": 9,
+        "deprecated": false
+      },
+      {
+        "id": 5339,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
+        "notation": "CrossSectionAdHocFollowUp",
+        "title": "Cross-section ad-hoc follow-up",
+        "definition": "Data collected at one point in time to complete information collected in a previous cross-sectional study; the decision to collect follow-up data was not included in the original study design.",
+        "position": 10,
+        "deprecated": false
+      },
+      {
+        "id": 5340,
+        "uri": "http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]",
+        "notation": "Other",
+        "title": "Other",
+        "definition": "Use if the time method is known, but not found in the list.",
+        "position": 11,
         "deprecated": false
       }
     ]
