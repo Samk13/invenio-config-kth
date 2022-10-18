@@ -4,12 +4,13 @@
 #
 # invenio-subjects-CESSDA is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
-
 import asyncio
 import json
+import os
 from urllib.parse import urlparse, urlunparse
 
 import aiohttp
+from click import secho
 
 from invenio_subjects_cessda.config import urls
 
@@ -47,12 +48,14 @@ async def get_data():
 def main():
     """main entry point"""
     asyncio.run(get_data())
-    print(json.dumps(result))
-    # print(
-    #     fix_url(
-    #         "https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes_[CODE]?v=1.0"
-    #     )
-    # )
+    path = os.getcwd()
+    file_path = "invenio_subjects_cessda/downloads"
+    file_name = "result.json"
+    data_file_path = os.path.join(path, file_path, file_name)
+
+    with open(data_file_path, "w+", encoding="utf-8") as f:
+        f.write(json.dumps(result, indent=2))
+    secho("Data downloaded successfully!", fg="green")
 
 
 if __name__ == "__main__":

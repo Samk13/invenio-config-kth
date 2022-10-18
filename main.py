@@ -20,6 +20,7 @@ def fix_url(url_in):
         )
     return urlunparse(new_url)
 
+
 def main():
     """main entry point"""
     # asyncio.run(get_data())
