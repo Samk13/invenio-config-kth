@@ -14,3 +14,6 @@ install: # Install py dependencies
 
 fetch_all_voc: # fetch data and save it in invenio_subjects_cessda/downloads/result.json
 	@python -m fetch_voc | jq > invenio_subjects_cessda/downloads/result.json
+
+test: # run tests
+	@bash run-tests.sh
