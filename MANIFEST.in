@@ -5,6 +5,7 @@ include *.py
 include licence
 include .pylintrc
 include Makefile
+include .editorconfig
 recursive-include invenio_subjects_cessda *.csv
 recursive-include invenio_subjects_cessda *.py
 recursive-include invenio_subjects_cessda *.yaml
