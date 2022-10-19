@@ -7,6 +7,8 @@
 
 from urllib.parse import urlparse, urlunparse
 
+from invenio_subjects_cessda.fetch_voc import fetch_voc
+
 
 # cleanup data
 def fix_url(url_in):
@@ -23,13 +25,8 @@ def fix_url(url_in):
 
 def main():
     """main entry point"""
-    # asyncio.run(get_data())
-    # print(json.dumps(result))
-    print(
-        fix_url(
-            "https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes_[CODE]?v=1.0"
-        )
-    )
+    fetch_voc()
+
 
 
 if __name__ == "__main__":

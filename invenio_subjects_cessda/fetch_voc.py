@@ -5,8 +5,8 @@
 # invenio-subjects-CESSDA is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
 import asyncio
-import json
-import os
+from json import dumps
+from os import getcwd, path
 from urllib.parse import urlparse, urlunparse
 
 import aiohttp
@@ -14,7 +14,6 @@ from click import secho
 
 from invenio_subjects_cessda.config import urls
 
-result = []
 
 # cleanup data
 def fix_url(url_in):
@@ -30,33 +29,31 @@ def fix_url(url_in):
 
 
 # Data fetching
-async def fetch(session, url_obj):
+async def fetch(session, url_obj, result):
     """fetch API calls"""
     async with session.get(url_obj["endpoint"]) as res:
         data = await res.json()
         resp = dict(name=url_obj["name"], data=data)
         result.append(resp)
+        return result
 
 
-async def get_data():
+async def get_data(result):
     """gather workers"""
+
     async with aiohttp.ClientSession() as session:
-        tasks = [fetch(session, url) for url in urls]
+        tasks = [fetch(session, url, result) for url in urls]
         await asyncio.gather(*tasks)
 
-
-def main():
+def fetch_voc():
     """main entry point"""
-    asyncio.run(get_data())
-    path = os.getcwd()
+    result = []
+    asyncio.run(get_data(result))
+    f_path = getcwd()
     file_path = "invenio_subjects_cessda/downloads"
     file_name = "result.json"
-    data_file_path = os.path.join(path, file_path, file_name)
+    data_file_path = path.join(f_path, file_path, file_name)
 
     with open(data_file_path, "w+", encoding="utf-8") as f:
-        f.write(json.dumps(result, indent=2))
-    secho("Data downloaded successfully!", fg="green")
-
-
-if __name__ == "__main__":
-    main()
+        f.write(dumps(result, indent=2))
+    secho(f"Data downloaded and saved successfully in {data_file_path}", fg="green")
