@@ -1,3 +1,2667 @@
-- id: 64538-BT-55662
-  scheme: CESSDA controlled vocabularies
-  subject: test
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/ASCII
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/ISO88591
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/ISO88592
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/ISO88593
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/ISO88594
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/ISO88595
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/ISO88596
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/ISO88597
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/ISO88598
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/ISO88599
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/ISO885910
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/ISO885911
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/ISO885913
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/ISO885914
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/ISO885915
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/ISO885916
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/MacOSRoman
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/UTF8
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/UTF16
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/UTF32
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/Windows1251
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/Windows1252
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/Windows1253
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/Windows1254
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/Windows1255
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/Windows1256
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/Windows1257
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/Windows1258
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/Unspecified
+- id: http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0/[CODE]
+  scheme: CESSDA
+  subject: Character Set/Other
+- id: https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: CESSDA Persistent Identifier Types/ARK
+- id: https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: CESSDA Persistent Identifier Types/DOI
+- id: https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: CESSDA Persistent Identifier Types/Handle
+- id: https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: CESSDA Persistent Identifier Types/URN
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Telephone/Fixed
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Telephone/Fixed.PersonalPrivate
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Telephone/Fixed.OrganizationBusiness
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Telephone/Mobile
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Telephone/Mobile.PersonalPrivate
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Telephone/Mobile.OrganizationBusiness
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Telephone/Fax
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Telephone/Fax.PersonalPrivate
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Telephone/Fax.OrganizationBusiness
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Telephone/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]
+  scheme: CESSDA
+  subject: Language Proficiency/Native
+- id: http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]
+  scheme: CESSDA
+  subject: Language Proficiency/Native.Fluent
+- id: http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]
+  scheme: CESSDA
+  subject: Language Proficiency/Native.Good
+- id: http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]
+  scheme: CESSDA
+  subject: Language Proficiency/Native.Basic
+- id: http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]
+  scheme: CESSDA
+  subject: Language Proficiency/NonNative
+- id: http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]
+  scheme: CESSDA
+  subject: Language Proficiency/NonNative.Fluent
+- id: http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]
+  scheme: CESSDA
+  subject: Language Proficiency/NonNative.Good
+- id: http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]
+  scheme: CESSDA
+  subject: Language Proficiency/NonNative.Basic
+- id: http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]
+  scheme: CESSDA
+  subject: Language Proficiency/NativeStatusUnspecified
+- id: http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]
+  scheme: CESSDA
+  subject: Language Proficiency/NativeStatusUnspecified.Fluent
+- id: http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]
+  scheme: CESSDA
+  subject: Language Proficiency/NativeStatusUnspecified.Good
+- id: http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]
+  scheme: CESSDA
+  subject: Language Proficiency/NativeStatusUnspecified.Basic
+- id: http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0/[CODE]
+  scheme: CESSDA
+  subject: Language Proficiency/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/-12:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/-11:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/-10:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/-09:30
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/-09:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/-08:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/-07:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/-06:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/-05:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/-04:30
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/-04:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/-03:30
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/-03:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/-02:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/-01:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/00:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+01:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+02:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+03:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+03:30
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+04:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+04:30
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+05:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+05:30
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+05:45
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+06:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+06:30
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+07:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+08:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+09:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+09:30
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+10:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+10:30
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+11:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+11:30
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+12:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+12:45
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+13:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/+14:00
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0/[CODE]
+  scheme: CESSDA
+  subject: Time Zone/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Note/Processing
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Note/Addendum
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Note/System
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Note/Observation
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Note/Comment
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfNote/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Note/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Translation Method/SingleTranslation
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Translation Method/SingleTranslation.IndividualReview
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Translation Method/SingleTranslation.CommitteeReview
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Translation Method/SplitTranslation
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Translation Method/SplitTranslation.IndividualReview
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Translation Method/SplitTranslation.CommitteeReview
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Translation Method/ParallelTranslations
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Translation Method/ParallelTranslations.IndividualReview
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Translation Method/ParallelTranslations.CommitteeReview
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Translation Method/SameLanguageAdaptation
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Translation Method/SameLanguageHarmonization
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Translation Method/TranslationMethodUnspecified
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Translation Method/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/DateType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Date Type/DateTime
+- id: http://rdf-vocabulary.ddialliance.org/cv/DateType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Date Type/Time
+- id: http://rdf-vocabulary.ddialliance.org/cv/DateType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Date Type/Date
+- id: http://rdf-vocabulary.ddialliance.org/cv/DateType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Date Type/GYearMonth
+- id: http://rdf-vocabulary.ddialliance.org/cv/DateType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Date Type/GYear
+- id: http://rdf-vocabulary.ddialliance.org/cv/DateType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Date Type/GMonthDay
+- id: http://rdf-vocabulary.ddialliance.org/cv/DateType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Date Type/GDay
+- id: http://rdf-vocabulary.ddialliance.org/cv/DateType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Date Type/GMonth
+- id: http://rdf-vocabulary.ddialliance.org/cv/DateType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Date Type/Duration
+- id: http://rdf-vocabulary.ddialliance.org/cv/DateType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Date Type/Timespan
+- id: http://rdf-vocabulary.ddialliance.org/cv/DateType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Date Type/Other
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/AUSSDA
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/CSDA
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/DNA
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/DANS
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/FORS
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/FSD
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/GESIS
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/APIS
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/ProgedoCDSP
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/ProgedoCNRS
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/Progedo
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/Sikt
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/SASD
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/ADP
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/SODHA
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/SoDaNet
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/SND
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/UKDS
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_[CODE]?v=5.0
+  scheme: CESSDA
+  subject: CDC Publisher Names/UniData
+- id: http://rdf-vocabulary.ddialliance.org/cv/CommonalityType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Commonality Type/Identical
+- id: http://rdf-vocabulary.ddialliance.org/cv/CommonalityType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Commonality Type/Some
+- id: http://rdf-vocabulary.ddialliance.org/cv/CommonalityType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Commonality Type/None
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/AF
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/AL
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/DZ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/AS
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/AD
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/AO
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/AI
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/AQ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/AG
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/AR
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/AM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/AW
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/AU
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/AT
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/AZ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BS
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BH
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BD
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BB
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BY
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BE
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BZ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BJ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BT
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BO
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BQ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BA
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BW
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BV
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BR
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/IO
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BN
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BG
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BF
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BI
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CV
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/KH
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CA
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/KY
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CF
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/TD
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CL
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CN
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CX
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CC
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CO
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/KM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CD
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CG
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CK
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CR
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/HR
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CU
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CW
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CY
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CZ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CI
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/DK
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/DJ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/DM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/DO
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/EC
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/EG
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SV
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GQ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/ER
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/EE
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SZ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/ET
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/FK
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/FO
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/FJ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/FI
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/FR
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GF
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/PF
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/TF
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GA
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GE
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/DE
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GH
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GI
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GR
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GL
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GD
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GP
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GU
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GT
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GG
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GN
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GW
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GY
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/HT
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/HM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/VA
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/HN
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/HK
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/HU
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/IS
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/IN
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/ID
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/IR
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/IQ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/IE
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/IM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/IL
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/IT
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/JM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/JP
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/JE
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/JO
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/KZ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/KE
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/KI
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/KW
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/KG
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/LA
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/LV
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/LB
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/LS
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/LR
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/LY
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/LI
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/LT
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/LU
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MO
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MG
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MW
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MY
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MV
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/ML
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MT
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MH
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MQ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MR
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MU
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/YT
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MX
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/FM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MD
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MC
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MN
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/ME
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MS
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MA
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MZ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/NA
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/NR
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/NP
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/NL
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/NC
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/NZ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/NI
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/NE
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/NG
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/NU
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/NF
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/KP
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MK
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MP
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/NO
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/OM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/PK
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/PW
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/PS
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/PA
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/PG
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/PY
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/PE
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/PH
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/PN
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/PL
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/PT
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/PR
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/QA
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/RO
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/RU
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/RW
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/RE
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/BL
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SH
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/KN
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/LC
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/MF
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/PM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/VC
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/WS
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/ST
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SA
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SN
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/RS
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SC
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SL
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SG
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SX
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SK
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SI
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SB
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SO
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/ZA
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GS
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/KR
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SS
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/ES
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/LK
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SD
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SR
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SJ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SE
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/CH
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/SY
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/TW
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/TJ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/TZ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/TH
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/TL
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/TG
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/TK
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/TO
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/TT
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/TN
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/TR
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/TM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/TC
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/TV
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/UG
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/UA
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/AE
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/GB
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/UM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/US
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/UY
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/UZ
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/VU
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/VE
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/VN
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/VG
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/VI
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/WF
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/EH
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/YE
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/ZM
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/ZW
+- id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_[CODE]?v=1.0
+  scheme: CESSDA
+  subject: Country Names and Codes/AX
+- id: http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]
+  scheme: CESSDA
+  subject: Aggregation Method/Sum
+- id: http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]
+  scheme: CESSDA
+  subject: Aggregation Method/ArithmeticMean
+- id: http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]
+  scheme: CESSDA
+  subject: Aggregation Method/Count
+- id: http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]
+  scheme: CESSDA
+  subject: Aggregation Method/Mode
+- id: http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]
+  scheme: CESSDA
+  subject: Aggregation Method/Median
+- id: http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]
+  scheme: CESSDA
+  subject: Aggregation Method/Maximum
+- id: http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]
+  scheme: CESSDA
+  subject: Aggregation Method/Minimum
+- id: http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]
+  scheme: CESSDA
+  subject: Aggregation Method/Percent
+- id: http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]
+  scheme: CESSDA
+  subject: Aggregation Method/CumulativePercent
+- id: http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]
+  scheme: CESSDA
+  subject: Aggregation Method/PercentileRank
+- id: http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1/[CODE]
+  scheme: CESSDA
+  subject: Aggregation Method/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/ProjectOrStudyDesign
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/ProjectOrStudyDesign.Conceptualization
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/ProjectOrStudyDesign.InstrumentDesign
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/ProjectOrStudyDesign.MethodologyDevelopment
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/ProjectOrStudyDesign.WeightsDesign
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/ProjectOrStudyDesign.StandardsDevelopment
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/ProjectOrStudyDesign.DataModeling
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/ProjectOrStudyDesignSamplingDesign
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/DataManagement
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/EthicsReview
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/DataCollection
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/SampleSelection
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/DataEntry
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/DataProcessing
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/DataProcessing.DisclosureControl
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/DataProcessing.DataAggregation
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/DataProcessing.DataIntegration
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/DataProcessing.DataValidation
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/DataAcquisition
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/MetadataProduction
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/DataDistribution
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/DataHosting
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/LongTermPreservationOrArchiving
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/Consulting
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/Contact
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/DataAnalysis
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/Editing
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/EquipmentDevelopment
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/Evaluation
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/FundingProvision
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/FundingOrSponsorshipAcquisition
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/Sponsorship
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/GraphicDesign
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/ProjectOperations
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/ProjectOperations.ProjectLeader
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/ProjectOperations.ProjectManager
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/ProjectOperations.ProjectMember
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/Promotion
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/RegistrationAuthority
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/Researcher
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/ResearchGroup
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/RightsHolding
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/RightsManagement
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/SoftwareDevelopment
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/Supervision
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/Training
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/Translation
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/UserSupport
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/Visualization
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/WebsiteDevelopment
+- id: http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0/[CODE]
+  scheme: CESSDA
+  subject: Contributor Role/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]
+  scheme: CESSDA
+  subject: General Data Format/Numeric
+- id: http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]
+  scheme: CESSDA
+  subject: General Data Format/Text
+- id: http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]
+  scheme: CESSDA
+  subject: General Data Format/StillImage
+- id: http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]
+  scheme: CESSDA
+  subject: General Data Format/Geospatial
+- id: http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]
+  scheme: CESSDA
+  subject: General Data Format/Audio
+- id: http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]
+  scheme: CESSDA
+  subject: General Data Format/Video
+- id: http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]
+  scheme: CESSDA
+  subject: General Data Format/Software
+- id: http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]
+  scheme: CESSDA
+  subject: General Data Format/InteractiveResource
+- id: http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]
+  scheme: CESSDA
+  subject: General Data Format/ThreeD
+- id: http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0/[CODE]
+  scheme: CESSDA
+  subject: General Data Format/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/String
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/NormalizedString
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/Boolean
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/Decimal
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/Integer
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/PositiveInteger
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/NegativeInteger
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/NonNegativeInteger
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/NonPositiveInteger
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/Long
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/Int
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/Short
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/Byte
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/UnsignedLong
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/UnsignedInt
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/UnsignedShort
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/UnsignedByte
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/Float
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/Double
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/DateTime
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/Time
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/Date
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/GYearMonth
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/GYear
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/GMonthDay
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/GDay
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/GMonth
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/Duration
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/HexBinary
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/Base64Binary
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/AnyURI
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Data Type/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Instrument/Questionnaire
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Instrument/Questionnaire.Structured
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Instrument/Questionnaire.Semistructured
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Instrument/Questionnaire.Unstructured
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Instrument/InterviewSchemeAndThemes
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Instrument/DataCollectionGuidelines
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Instrument/DataCollectionGuidelines.ObservationGuide
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Instrument/DataCollectionGuidelines.DiscussionGuide
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Instrument/DataCollectionGuidelines.SelfAdministeredWritingsGuide
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Instrument/DataCollectionGuidelines.SecondaryDataCollectionGuide
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Instrument/ParticipantTasks
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Instrument/TechnicalInstruments
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Instrument/ProgrammingScript
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfInstrument/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Instrument/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/AcaStat
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/ADaMSoft
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/AnalyseIt
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/Auguri
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/BioStat
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/BMDP
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/BrightStat
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/Dataplot
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/DBase
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/DIF
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/EasyReg
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/EpiInfo
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/EViews
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/GAUSS
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/GoldenHelix
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/GraphPadPrism
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/Gretl
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/JMP
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/Limdep
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/MacAnova
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/Maple
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/Mathematica
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/MatLab
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/MedCalc
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/Minitab
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/ModelQED
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/NCSS
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/NSDStat
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/OpenEpi
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/Origin
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/Partek
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/Primer
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/PSPP
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/RCommander
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/R
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/RATS
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/RKWard
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/SalStat
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/SAS
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/Shazam
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/SOCR
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/SPlus
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/SPSS
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/Stata
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/Statistica
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/SUDAAN
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/TSP
+- id: http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0/[CODE]
+  scheme: CESSDA
+  subject: Software Package/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/ArithmeticMean
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/GeometricMean
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/HarmonicMean
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/TrimmedMean
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/StandardErrorOfMean
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/Mode
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/Median
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/ValidCases
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/InvalidCases
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/Minimum
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/Maximum
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/Range
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/Sum
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/Variance
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/StandardDeviation
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/CoefficientOfVariation
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/AverageAbsoluteDeviation
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/MedianAbsoluteDeviation
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/FirstQuartile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/SecondQuartile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/ThirdQuartile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/InterquartileRange
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/FirstQuintile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/SecondQuintile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/ThirdQuintile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/FourthQuintile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/InterquintileRange
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/FirstDecile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/SecondDecile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/ThirdDecile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/FourthDecile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/FifthDecile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/SixthDecile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/SeventhDecile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/EighthDecile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/NinthDecile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/InterdecileRange
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/OtherPercentile
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/Beta1
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/Beta2
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/ShapiroWilk
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/PercentageOfValidCases
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/PercentageOfInvalidCases
+- id: http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1/[CODE]
+  scheme: CESSDA
+  subject: Summary Statistic Type/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/TotalUniverseCompleteEnumeration
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/Probability
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/Probability.SimpleRandom
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/Probability.SystematicRandom
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/Probability.Stratified
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/Probability.Stratified.Proportional
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/Probability.Stratified.Disproportional
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/Probability.Cluster
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/Probability.Cluster.SimpleRandom
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/Probability.Cluster.StratifiedRandom
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/Probability.Multistage
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/Nonprobability
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/Nonprobability.Availability
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/Nonprobability.Purposive
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/Nonprobability.Quota
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/Nonprobability.RespondentAssisted
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/MixedProbabilityNonprobability
+- id: http://rdf-vocabulary.ddialliance.org/cv/SamplingProcedure/1.1/[CODE]
+  scheme: CESSDA
+  subject: Sampling Procedure/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/Individual
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/OrganizationOrInstitution
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/Family
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/Family.HouseholdFamily
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/Household
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/HousingUnit
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/EventOrProcessOrActivity
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/GeographicUnit
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/PoliticalAdministrativeArea
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/TimeUnit
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/MediaUnit
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/MediaUnit.Sound
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/MediaUnit.StillImage
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/MediaUnit.Text
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/MediaUnit.Video
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/Group
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/Object
+- id: http://rdf-vocabulary.ddialliance.org/cv/AnalysisUnit/2.1/[CODE]
+  scheme: CESSDA
+  subject: Analysis Unit/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Concept Group/Administrative
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Concept Group/Thematic
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0/[CODE]
+  scheme: CESSDA
+  subject: Type of Concept Group/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Address/Mailing
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Address/Mailing.Residential
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Address/Mailing.Nonresidential
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Address/Visiting
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Address/Visiting.Residential
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Address/Visiting.Nonresidential
+- id: http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1/[CODE]
+  scheme: CESSDA
+  subject: Type of Address/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Numeric Type/Integer
+- id: http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Numeric Type/Int
+- id: http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Numeric Type/Long
+- id: http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Numeric Type/Short
+- id: http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Numeric Type/Decimal
+- id: http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Numeric Type/Float
+- id: http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Numeric Type/Double
+- id: http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Numeric Type/Count
+- id: http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Numeric Type/Incremental
+- id: http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1/[CODE]
+  scheme: CESSDA
+  subject: Numeric Type/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0/[CODE]
+  scheme: CESSDA
+  subject: Response Unit/Self
+- id: http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0/[CODE]
+  scheme: CESSDA
+  subject: Response Unit/Informant
+- id: http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0/[CODE]
+  scheme: CESSDA
+  subject: Response Unit/Proxy
+- id: http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0/[CODE]
+  scheme: CESSDA
+  subject: Response Unit/Interviewer
+- id: http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0/[CODE]
+  scheme: CESSDA
+  subject: Response Unit/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/StudyProposal
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/Funding
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/StudyDesign
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/InstrumentDesign
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/QuestionnaireTranslation
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/QuestionnaireAdaptation
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/InterviewerTraining
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/EthicsReview
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/LegalReview
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/Sampling
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/InstrumentPreTesting
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/PilotStudy
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DataCollection
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DataCollectionReports
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DataProcessing
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DataProcessing.Coding
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DataProcessing.Classification
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DataProcessing.InterviewTranscriptions
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DataProcessing.Weighting
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DataProcessing.Aggregation
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DataProcessing.CompositeMeasures
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DataProcessing.Derivation
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DataProcessing.DataQualityChecks
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DataProcessing.DataIntegration
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DataProcessing.DisclosureLimitation
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DataProcessing.Imputation
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/MetadataProduction
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/MetadataEditing
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/MetadataTranslation
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/FinalReport
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/Evaluation
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/OriginalRelease
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/Deposit
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/PreservationPackageProduction
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DisseminationPackageProduction
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DisseminationPackageRelease
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/DataAnalysisReports
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/NewVersionRelease
+- id: http://rdf-vocabulary.ddialliance.org/cv/LifecycleEventType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Lifecycle Event Type/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]
+  scheme: CESSDA
+  subject: Time Method/Longitudinal
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]
+  scheme: CESSDA
+  subject: Time Method/Longitudinal.CohortEventBased
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]
+  scheme: CESSDA
+  subject: Time Method/Longitudinal.TrendRepeatedCrossSection
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]
+  scheme: CESSDA
+  subject: Time Method/Longitudinal.Panel
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]
+  scheme: CESSDA
+  subject: Time Method/Longitudinal.Panel.Continuous
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]
+  scheme: CESSDA
+  subject: Time Method/Longitudinal.Panel.Interval
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]
+  scheme: CESSDA
+  subject: Time Method/TimeSeries
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]
+  scheme: CESSDA
+  subject: Time Method/TimeSeries.Continuous
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]
+  scheme: CESSDA
+  subject: Time Method/TimeSeries.Discrete
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]
+  scheme: CESSDA
+  subject: Time Method/CrossSection
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]
+  scheme: CESSDA
+  subject: Time Method/CrossSectionAdHocFollowUp
+- id: http://rdf-vocabulary.ddialliance.org/cv/TimeMethod/1.2/[CODE]
+  scheme: CESSDA
+  subject: Time Method/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/RegistersRecordsAccounts
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/RegistersRecordsAccounts.Administrative
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/RegistersRecordsAccounts.Historical
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/RegistersRecordsAccounts.Legal
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/RegistersRecordsAccounts.MedicalClinical
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/RegistersRecordsAccounts.AcademicAptitude
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/RegistersRecordsAccounts.EconomicFinancial
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/RegistersRecordsAccounts.Personal
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/RegistersRecordsAccounts.VotingResults
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/EventsInteractions
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/Processes
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/Processes.Workflows
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/Communications
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/Communications.Public
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/Communications.Interpersonal
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/ResearchData
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/ResearchData.Published
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/ResearchData.Unpublished
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/PopulationGroup
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/GeographicArea
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/PhysicalObjects
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/BiologicalSamples
+- id: http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/1.0/[CODE]
+  scheme: CESSDA
+  subject: Data Source Type/Other
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Interview
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Interview.FaceToFace
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Interview.FaceToFace.CAPIorCAMI
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Interview.FaceToFace.PAPI
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Interview.Telephone
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Interview.Telephone.CATI
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Interview.Email
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Interview.WebBased
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/SelfAdministeredQuestionnaire
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/SelfAdministeredQuestionnaire.Email
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/SelfAdministeredQuestionnaire.Paper
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/SelfAdministeredQuestionnaire.SMSorMMS
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/SelfAdministeredQuestionnaire.CAWI
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/SelfAdministeredQuestionnaire.CASI
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/FocusGroup
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/FocusGroup.FaceToFace
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/FocusGroup.Telephone
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/FocusGroup.Online
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/SelfAdministeredWritingsAndDiaries
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/SelfAdministeredWritingsAndDiaries.Email
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/SelfAdministeredWritingsAndDiaries.Paper
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/SelfAdministeredWritingsAndDiaries.WebBased
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Observation
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Observation.Field
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Observation.Field.Participant
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Observation.Field.Nonparticipant
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Observation.Laboratory
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Observation.Laboratory.Participant
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Observation.Laboratory.Nonparticipant
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Observation.ComputerBased
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Experiment
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Experiment.Laboratory
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Experiment.FieldIntervention
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Experiment.WebBased
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Recording
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Recording.RemoteSensing
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/AutomatedDataExtraction
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/AutomatedDataExtraction.ApiQuery
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/AutomatedDataExtraction.DatabaseQuery
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/AutomatedDataExtraction.WebScraping
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/ContentCoding
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Transcription
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/CompilationSynthesis
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Summary
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Aggregation
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Simulation
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/MeasurementsAndTests
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/MeasurementsAndTests.Educational
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/MeasurementsAndTests.Physical
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/MeasurementsAndTests.Psychological
+- id: http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0/[CODE]
+  scheme: CESSDA
+  subject: Mode Of Collection/Other
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Demography
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Demography.Censuses
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Demography.Migration
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Demography.MorbidityAndMortality
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Economics
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Economics.ConsumptionAndConsumerBehaviour
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Economics.EconomicConditionsAndIndicators
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Economics.EconomicPolicyPublicExpenditureAndRevenue
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Economics.EconomicSystemsAndDevelopment
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Economics.IncomePropertyAndInvestmentSaving
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Education
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Education.CompulsoryAndPreschoolEducation
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Education.EducationalPolicy
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Education.HigherAndFurtherEducation
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Education.LifelongContinuingEducation
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Education.VocationalEducationAndTraining
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Health
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Health.DietAndNutrition
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Health.DrugAbuseAlcoholAndSmoking
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Health.GeneralHealthAndWellbeing
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Health.HealthCareServicesAndPolicies
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Health.MedicationAndTreatment
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Health.OccupationalHealth
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Health.PhysicalFitnessAndExercise
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Health.PublicHealth
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Health.ReproductiveHealth
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Health.SignsAndSymptomsPathologicalConditions
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Health.SpecificDiseasesDisordersAndMedicalConditions
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Health.WoundsAndInjuries
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/History
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/HousingAndLandUse
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/HousingAndLandUse.Housing
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/HousingAndLandUse.LandUseAndPlanning
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/LabourAndEmployment
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/LabourAndEmployment.EmployeeTraining
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/LabourAndEmployment.Employment
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/LabourAndEmployment.LabourAndEmploymentPolicy
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/LabourAndEmployment.LabourRelationsConflict
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/LabourAndEmployment.Retirement
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/LabourAndEmployment.Unemployment
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/LabourAndEmployment.WorkingConditions
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/LawCrimeAndLegalSystems
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/LawCrimeAndLegalSystems.CrimeAndLawEnforcement
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/LawCrimeAndLegalSystems.LegislationAndLegalSystems
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/MediaCommunicationAndLanguage
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/MediaCommunicationAndLanguage.InformationSociety
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/MediaCommunicationAndLanguage.LanguageAndLinguistics
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/MediaCommunicationAndLanguage.Media
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/MediaCommunicationAndLanguage.PublicRelations
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/NaturalEnvironment
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/NaturalEnvironment.EnergyAndNaturalResources
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/NaturalEnvironment.EnvironmentAndConservation
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/NaturalEnvironment.NaturalLandscapes
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/NaturalEnvironment.PlantsAndAnimals
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Politics
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Politics.ConflictSecurityAndPeace
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Politics.Elections
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Politics.GovernmentPoliticalSystemsAndOrganisations
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Politics.InternationalPoliticsAndOrganisations
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Politics.PoliticalBehaviourAndAttitudes
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Politics.PoliticalIdeology
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Psychology
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/ScienceAndTechnology
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/ScienceAndTechnology.Biotechnology
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/ScienceAndTechnology.InformationTechnology
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocialStratificationAndGroupings
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocialStratificationAndGroupings.Children
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocialStratificationAndGroupings.Elderly
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocialStratificationAndGroupings.ElitesAndLeadership
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocialStratificationAndGroupings.EqualityInequalityAndSocialExclusion
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocialStratificationAndGroupings.FamilyLifeAndMarriage
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocialStratificationAndGroupings.GenderAndGenderRoles
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocialStratificationAndGroupings.Minorities
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocialStratificationAndGroupings.SocialAndOccupationalMobility
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocialStratificationAndGroupings.Youth
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocialWelfarePolicyAndSystems
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocialWelfarePolicyAndSystems.SocialWelfarePolicy
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocialWelfarePolicyAndSystems.SocialWelfareSystemsStructures
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocialWelfarePolicyAndSystems.SpecificSocialServicesUseAndAvailability
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocietyAndCulture
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocietyAndCulture.CommunityUrbanAndRuralLife
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocietyAndCulture.CulturalActivitiesAndParticipation
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocietyAndCulture.CulturalAndNationalIdentity
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocietyAndCulture.LeisureTourismAndSport
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocietyAndCulture.ReligionAndValues
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocietyAndCulture.SocialBehaviourAndAttitudes
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocietyAndCulture.SocialChange
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocietyAndCulture.SocialConditionsAndIndicators
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/SocietyAndCulture.TimeUse
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/TradeIndustryAndMarkets
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/TradeIndustryAndMarkets.AgricultureAndRuralIndustry
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/TradeIndustryAndMarkets.BusinessIndustrialManagementAndOrganisation
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/TradeIndustryAndMarkets.ForeignTrade
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/TransportAndTravel
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_[CODE]?v=4.2
+  scheme: CESSDA
+  subject: CESSDA Topic Classification/Other

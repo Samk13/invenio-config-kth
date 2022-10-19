@@ -4,10 +4,11 @@
 #
 # invenio-subjects-CESSDA is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
-
+from os import getcwd
 from urllib.parse import urlparse, urlunparse
 
-from invenio_subjects_cessda.fetch_voc import fetch_voc
+from invenio_subjects_cessda.convert import convert_voc
+from invenio_subjects_cessda.fetch_voc import fetch_voc, write_voc
 
 
 # cleanup data
@@ -25,7 +26,10 @@ def fix_url(url_in):
 
 def main():
     """main entry point"""
-    fetch_voc()
+    result = fetch_voc()
+    # fpath = f"{getcwd()}/invenio_subjects_cessda/downloads/result.json"
+    # write_voc(fpath, result, "w+")
+    convert_voc(result)
 
 
 if __name__ == "__main__":
