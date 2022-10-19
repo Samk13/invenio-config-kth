@@ -28,6 +28,5 @@ def main():
     fetch_voc()
 
 
-
 if __name__ == "__main__":
     main()

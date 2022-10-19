@@ -17,7 +17,7 @@ from invenio_subjects_cessda.config import urls
 
 # cleanup data
 def fix_url(url_in):
-    """fix broken url for certain vocabularies"""
+    """Fix broken url for certain vocabularies."""
     url_in_ = urlparse(url_in)
     if url_in_.netloc == "vocabularies.cessda.eu":
         # TODO replace code with voc from the API res
@@ -30,7 +30,7 @@ def fix_url(url_in):
 
 # Data fetching
 async def fetch(session, url_obj, result):
-    """fetch API calls"""
+    """Fetch API calls."""
     async with session.get(url_obj["endpoint"]) as res:
         data = await res.json()
         resp = dict(name=url_obj["name"], data=data)
@@ -39,21 +39,43 @@ async def fetch(session, url_obj, result):
 
 
 async def get_data(result):
-    """gather workers"""
-
+    """Gather workers."""
     async with aiohttp.ClientSession() as session:
         tasks = [fetch(session, url, result) for url in urls]
         await asyncio.gather(*tasks)
 
-def fetch_voc():
-    """main entry point"""
-    result = []
-    asyncio.run(get_data(result))
+
+def write_voc(data_file_path, result, mode="w+"):
+    """Write result to disk.
+
+    Args:
+        data_file_path (str): file path
+        result (arr): data arr
+        mode (str): open mode
+    """
+    with open(data_file_path, mode, encoding="utf-8") as f:
+        f.write(dumps(result, indent=2))
+        secho(f"Data downloaded and saved successfully in {data_file_path}", fg="green")
+
+
+def set_path(file_path, file_name):
+    """Build file full path.
+
+    Args:
+        file_path (str): Path that will added over the current working directory
+        file_name (str): file name
+
+    Returns:
+        str: full Path
+    """
     f_path = getcwd()
     file_path = "invenio_subjects_cessda/downloads"
-    file_name = "result.json"
-    data_file_path = path.join(f_path, file_path, file_name)
+    return path.join(f_path, file_path, file_name)
 
-    with open(data_file_path, "w+", encoding="utf-8") as f:
-        f.write(dumps(result, indent=2))
-    secho(f"Data downloaded and saved successfully in {data_file_path}", fg="green")
+
+def fetch_voc():
+    """Fetch CESSDA voc and save it to disk."""
+    result = []
+    asyncio.run(get_data(result))
+    data_file_path = set_path("invenio_subjects_cessda/downloads", "result.json")
+    write_voc(data_file_path, result, "w+")
