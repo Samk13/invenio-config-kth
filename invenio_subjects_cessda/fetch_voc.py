@@ -42,6 +42,7 @@ def write_voc(data_file_path, result, mode="w+"):
         f.write(dumps(result, indent=2))
         secho(f"Data downloaded and saved successfully in{data_file_path}", fg="green")
 
+
 def fetch_voc():
     """Fetch CESSDA voc and save it to disk."""
     result = []
