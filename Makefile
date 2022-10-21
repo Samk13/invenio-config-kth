@@ -9,11 +9,11 @@ freeze: # show installed dependencies
 format: # format the code using black
 	@black .
 
+sort: # format imports using isort
+	@isort .
+
 install: # Install py dependencies
 	@pip install -e ".[tests]"
-
-fetch_all_voc: # fetch data and save it in invenio_subjects_cessda/downloads/result.json
-	@python -m fetch_voc
 
 run: # fetch data and save it in invenio_subjects_cessda/downloads/result.json
 	@python main.py

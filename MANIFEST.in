@@ -10,4 +10,3 @@ recursive-include invenio_subjects_cessda *.csv
 recursive-include invenio_subjects_cessda *.py
 recursive-include invenio_subjects_cessda *.yaml
 recursive-include tests *.py
-recursive-include invenio_subjects_cessda *.json
