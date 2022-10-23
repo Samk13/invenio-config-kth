@@ -6,11 +6,8 @@ ls: # list available commands
 freeze: # show installed dependencies
 	@pip freeze
 
-format: # format the code using black
-	@black .
-
-sort: # format imports using isort
-	@isort .
+format: # Black format and isort imports
+	@black . && isort .
 
 install: # Install py dependencies
 	@pip install -e ".[tests]"
