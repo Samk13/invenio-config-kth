@@ -8,6 +8,7 @@
 
 # from typing import Any, Callable, Dict, Iterator, NoReturn
 
+
 from click import secho
 
 from invenio_subjects_cessda.schemas import cessda_schema
