@@ -2,7 +2,7 @@ include *.md
 include *.sh
 include *.txt
 include *.py
-include licence
+include license
 include .pylintrc
 include Makefile
 include .editorconfig
