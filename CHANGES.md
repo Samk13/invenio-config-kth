@@ -1,5 +1,5 @@
 # Changes
 
-Version 2022.08.18 (released 2022-08-18)
+Version 1.0.0
 
-- Initial public release.
+- Initial public release 2022.10.25.
