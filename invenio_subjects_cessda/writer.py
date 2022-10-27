@@ -32,7 +32,7 @@ def write_voc(data_file_path, res, mode="w+"):
 
 
 # result = fetch_voc()
-# fpath = f"{getcwd()}/invenio_subjects_cessda/downloads/result.json"
+# fpath = f"{getcwd()}/invenio_subjects_cessda/vocabularies/result.json"
 # write_voc(fpath, result, "w+")
 
 
