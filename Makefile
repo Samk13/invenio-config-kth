@@ -12,6 +12,9 @@ format: # Black format and isort imports
 install: # Install py dependencies
 	@pip install -e ".[tests]"
 
+install-pipenv: # Install py dependencies using pipenv
+	@pipenv install -e ".[tests]"
+
 run: # fetch data, convert it to yaml, and then save it in invenio_subjects_cessda/vocabularies/cessda_voc.yaml
 	@python main.py
 
