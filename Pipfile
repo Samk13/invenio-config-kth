@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 invenio-subjects-cessda = {editable = true, extras = ["tests"], path = "."}
+pandas = "*"
 
 [dev-packages]
 
