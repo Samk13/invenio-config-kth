@@ -14,6 +14,6 @@ def cessda_schema(json_row):
         {
             "id": fix_url(json_row[1]),
             "scheme": "CESSDA",
-            "subject": f"{json_row[0]}/{json_row[1]['notation']}",
+            "subject": f"{json_row[1]['title']}",
         }
     ]
