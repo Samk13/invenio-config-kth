@@ -20,3 +20,12 @@ run: # fetch data, convert it to yaml, and then save it in invenio_subjects_cess
 
 test: # run tests
 	@bash run-tests.sh
+
+package: # Package to tar.gz file for uploading to pypi
+	@python setup.py sdist
+
+install-package-tools-pipenv: # Install twine using pipenv
+	@pipenv install twine
+
+install-package-tools: # Install twine
+	@pip install twine
