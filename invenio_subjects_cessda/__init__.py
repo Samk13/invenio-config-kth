@@ -6,4 +6,4 @@
 # modify it under the terms of the MIT License; see LICENSE file details.
 
 """CESSDA subject terms converter for InvenioRDM."""
-__version__ = "1.0.2"
+__version__ = "1.0.0"
