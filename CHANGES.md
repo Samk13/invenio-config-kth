@@ -2,4 +2,4 @@
 
 Version 1.0.0
 
-- Initial public release 2022.10.25.
+- Initial public release 2022.11.03
