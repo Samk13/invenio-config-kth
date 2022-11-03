@@ -20,7 +20,7 @@ def test_write2yaml(create_yaml_path):
     write2yaml(("Mailing address", test_data[0]), voc_path, cessda_schema)
     with open(voc_path, "r", encoding="utf-8") as f:
         data = yaml.load(f, Loader=SafeLoader)
-        assert data[0]["subject"] == f"Mailing address/{test_data[0]['notation']}"
+        assert data[0]["subject"] == f"{test_data[0]['title']}"
         assert data[0]["scheme"] == "CESSDA"
 
 

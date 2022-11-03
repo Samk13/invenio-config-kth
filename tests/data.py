@@ -38,6 +38,6 @@ expected_schema = [
     {
         "id": "https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Mailing?v=1.1&id=8812",
         "scheme": "CESSDA",
-        "subject": "Type of Address/Mailing",
+        "subject": "Mailing address",
     }
 ]
