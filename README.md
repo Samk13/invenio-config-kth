@@ -75,6 +75,6 @@ This will generate the new yaml file that can be used in your instance.
 ```bash
 make install-package-tools # this will install twine (install-package-tools-pipenv if you use pipenv)
 make package # this will zip the package into dist dir
-make package-check # check if the package pass twine checks
+make package-check # verify if the package pass twine checks
 twine upload -u <USERNAME> -p <PASSWORD> --repository-url https://test.pypi.org/legacy/ dist/* --verbose
 ```
