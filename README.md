@@ -70,3 +70,10 @@ make run
 This will generate the new yaml file that can be used in your instance.
 
 
+## Upload to pypi
+
+```bash
+make install-package-tools # this will install twine (install-package-tools-pipenv if you use pipenv)
+make package # this will zip the package into dist dir
+twine upload -u <USERNAME> -p <PASSWORD> --repository-url https://test.pypi.org/legacy/ dist/* --verbose
+```
