@@ -8,7 +8,6 @@
 from urllib.parse import urlparse
 
 
-# cleanup data
 def fix_url(obj_in):
     """Fix broken urls for certain vocabularies."""
     url_in_ = urlparse(obj_in["uri"])

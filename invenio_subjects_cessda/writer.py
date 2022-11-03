@@ -37,10 +37,10 @@ def write_voc(data_file_path, res, mode="w+"):
 
 
 def write2yaml(data, destination, schema, mode="w+"):
-    """Write to YAML in append mode.
+    """Write data to YAML.
 
     Args:
-        data (str): json row
+        data (str): JSON
         destination (str): file path destination
         schema (Callable): schema function
     """

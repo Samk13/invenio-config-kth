@@ -9,7 +9,7 @@ from invenio_subjects_cessda.utils import fix_url
 
 
 def cessda_schema(json_row):
-    """Return InvenioRDM funders schema."""
+    """Return cessda voc schema."""
     return [
         {
             "id": fix_url(json_row[1]),

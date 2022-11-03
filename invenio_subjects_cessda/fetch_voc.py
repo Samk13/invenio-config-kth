@@ -30,7 +30,7 @@ async def gather_data(result):
 
 
 def fetch_voc():
-    """Fetch CESSDA voc and save it to disk."""
+    """Fetch CESSDA voc and return a list."""
     result = []
     run(gather_data(result))
     return result

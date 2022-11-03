@@ -25,4 +25,4 @@ def convert_voc(data, dpath):
         for s in v["data"]:
             write2yaml((v["name"], s), dpath, cessda_schema, mode="a")
     secho("Converted successfully to ", fg="green", nl=False)
-    secho(f"{dpath}", fg="yellow", bold=True)
+    secho(f" {dpath}", fg="yellow", bold=True)
