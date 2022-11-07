@@ -2,8 +2,8 @@
 #
 # Copyright (C) 2022 KTH Royal Institute of Technology Sweden
 #
-# invenio-subjects-CESSDA is free software, you can redistribute it and/or
+# invenio-config-kth is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
 
-"""CESSDA subject terms converter for InvenioRDM."""
+"""invenio-config-kth."""
 __version__ = "1.0.0"

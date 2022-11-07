@@ -1,4 +1,4 @@
-# invenio-subjects-cessda
+# invenio-config-kth
 
  CESSDA Vocabulary for [InvenioRDM](https://inveniosoftware.org/products/rdm/)
 This package is inspired by [invenio-subjects-mesh](https://github.com/galterlibrary/invenio-subjects-mesh)
@@ -8,7 +8,7 @@ Install this extension to get CESSDA Voc. subject terms used to index and retrie
 
 From your instance active venv:
 ```console
-pip install invenio-subjects-cessda
+pip install invenio-config-kth
 ```
 
 in your invenio instance run:
@@ -34,7 +34,7 @@ please read [Invenio subjects documentation](https://inveniordm.docs.cern.ch/cus
 To implement CESSDA in your instance:
 make sure you activate your invenio instance venv, then:
 ```bash
-pip install invenio-subjects-cessda
+pip install invenio-config-kth
 invenio rdm-records fixtures
 invenio-cli run
 ```
@@ -58,9 +58,9 @@ make test
 ### Fetch new CESSDA versions
 
 Last updated in 31/10/2022
-Inspect version in the [config.py](invenio_subjects_cessda/config.py) and update the version in desired endpoint link.
+Inspect version in the [config.py](invenio_config_kth/config.py) and update the version in desired endpoint link.
 
-- delete file [cessda_voc](invenio_subjects_cessda/vocabularies/cessda_voc.yaml)
+- delete file [cessda_voc](invenio_config_kth/vocabularies/cessda_voc.yaml)
 > Notice that if you don't delete the old file it will append to it
 
 then run:

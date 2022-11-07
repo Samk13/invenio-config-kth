@@ -6,9 +6,9 @@ include license
 include .pylintrc
 include Makefile
 include .editorconfig
-recursive-include invenio_subjects_cessda *.csv
-recursive-include invenio_subjects_cessda *.py
-recursive-include invenio_subjects_cessda *.yaml
+recursive-include invenio_config_kth *.csv
+recursive-include invenio_config_kth *.py
+recursive-include invenio_config_kth *.yaml
 recursive-include tests *.py
 include *.lock
 include Pipfile

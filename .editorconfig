@@ -2,7 +2,7 @@
 #
 # Copyright (C) 2022 KTH Royal Institute of Technology Sweden
 #
-# invenio-subjects-CESSDA is free software, you can redistribute it and/or
+# invenio-config-kth is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
 
 root = true
