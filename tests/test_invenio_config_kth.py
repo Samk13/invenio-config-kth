@@ -5,10 +5,11 @@
 # invenio-config-kth is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
 
-def main():
-    """main entry point"""
-    print('test')
+"""Module tests."""
 
 
-if __name__ == "__main__":
-    main()
+def test_version():
+    """Test version import."""
+    from invenio_config_kth import __version__
+
+    assert __version__

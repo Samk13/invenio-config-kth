@@ -4,10 +4,9 @@
 #
 # invenio-config-kth is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
-"""Invenio module contain customization for KTH."""
+"""KTH Permissions."""
 
+from .generators import DisableIf, DisableIfReadOnly
+from .policies import KTHCommunitiesPermissionPolicy
 
-from .ext import InvenioConfigKTH
-
-__all__ = ("__version__", "InvenioConfigKTH")
-__version__ = "1.0.0"
+__all__ = ("KTHCommunitiesPermissionPolicy",)
