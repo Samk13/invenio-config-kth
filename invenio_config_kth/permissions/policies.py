@@ -8,21 +8,15 @@
 from invenio_communities.permissions import CommunityPermissionPolicy
 from invenio_records_permissions.generators import SystemProcess
 
-from .generators import DisableIfReadOnly
+from .generators import Administration, DisableIfReadOnly
 
 
 class KTHCommunitiesPermissionPolicy(CommunityPermissionPolicy):
     """Communities permission policy of KTH."""
 
-    # for now, we want to restrict the creation of communities to admins
-    #
-    # current state: invenio-communities v3.1.0
-    #
-    # TODO: discuss who should have permissions to create communities
-    #       -> new role?
-    can_create = [SystemProcess(), DisableIfReadOnly()]
-
     # fmt: off
+    # can create Should replace all
+    can_create =                               [Administration(), SystemProcess(), DisableIfReadOnly()]  # noqa
     can_update              = CommunityPermissionPolicy.can_update              + [DisableIfReadOnly()]  # noqa
     can_delete              = CommunityPermissionPolicy.can_delete              + [DisableIfReadOnly()]  # noqa
     can_rename              = CommunityPermissionPolicy.can_rename              + [DisableIfReadOnly()]  # noqa

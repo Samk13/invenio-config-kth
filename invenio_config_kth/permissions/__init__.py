@@ -9,4 +9,8 @@
 from .generators import DisableIf, DisableIfReadOnly
 from .policies import KTHCommunitiesPermissionPolicy
 
-__all__ = ("KTHCommunitiesPermissionPolicy",)
+__all__ = (
+    "KTHCommunitiesPermissionPolicy",
+    "DisableIfReadOnly",
+    "DisableIf",
+)

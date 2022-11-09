@@ -7,7 +7,4 @@
 """Invenio module contain customization for KTH."""
 
 
-from .ext import InvenioConfigKTH
-
-__all__ = ("__version__", "InvenioConfigKTH")
 __version__ = "1.0.0"

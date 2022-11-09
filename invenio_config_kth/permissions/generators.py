@@ -5,8 +5,23 @@
 # invenio-config-kth is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
 from flask import current_app
+from invenio_access import action_factory
 from invenio_access.permissions import any_user
 from invenio_records_permissions.generators import Generator
+
+administration_access_action = action_factory("administration-access")
+
+
+class Administration(Generator):
+    """Allows administration-access."""
+
+    def __init__(self):
+        """Constructor."""
+        super(Administration, self).__init__()
+
+    def needs(self, **kwargs):
+        """Enabling Needs."""
+        return [administration_access_action]
 
 
 class DisableIf(Generator):

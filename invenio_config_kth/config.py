@@ -7,12 +7,10 @@
 
 from flask_babelex import gettext as _
 
-# Invenio-Previewer
+# KTH Invenio config
 # =================
 
-PREVIEWER_MAX_IMAGE_SIZE_BYTES = 10 * 1024 * 1024  # 10 MB
-
-PREVIEWER_MAX_FILE_SIZE_BYTES = 10 * 1024 * 1024  # 10 MB
+CONFIG_KTH_READ_ONLY_MODE = False
 
 
 # Invenio-Mail
