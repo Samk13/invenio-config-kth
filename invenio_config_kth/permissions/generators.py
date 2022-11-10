@@ -5,6 +5,7 @@
 # invenio-config-kth is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
 from flask import current_app
+from flask_principal import RoleNeed
 from invenio_access import action_factory
 from invenio_access.permissions import any_user
 from invenio_records_permissions.generators import Generator
@@ -22,6 +23,14 @@ class Administration(Generator):
     def needs(self, **kwargs):
         """Enabling Needs."""
         return [administration_access_action]
+
+
+class CommunityManager(Generator):
+    """Allows users with the "trusted-user" role."""
+
+    def needs(self, record=None, **kwargs):
+        """Enabling Needs."""
+        return [RoleNeed("community-manager")]
 
 
 class DisableIf(Generator):

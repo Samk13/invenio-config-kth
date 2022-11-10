@@ -8,7 +8,7 @@
 from invenio_communities.permissions import CommunityPermissionPolicy
 from invenio_records_permissions.generators import SystemProcess
 
-from .generators import Administration, DisableIfReadOnly
+from .generators import Administration, CommunityManager, DisableIfReadOnly
 
 
 class KTHCommunitiesPermissionPolicy(CommunityPermissionPolicy):
@@ -16,7 +16,7 @@ class KTHCommunitiesPermissionPolicy(CommunityPermissionPolicy):
 
     # fmt: off
     # can create Should replace all
-    can_create =                               [Administration(), SystemProcess(), DisableIfReadOnly()]  # noqa
+    can_create =           [Administration(), CommunityManager(), SystemProcess(), DisableIfReadOnly()]  # noqa
     can_update              = CommunityPermissionPolicy.can_update              + [DisableIfReadOnly()]  # noqa
     can_delete              = CommunityPermissionPolicy.can_delete              + [DisableIfReadOnly()]  # noqa
     can_rename              = CommunityPermissionPolicy.can_rename              + [DisableIfReadOnly()]  # noqa
