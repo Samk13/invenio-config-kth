@@ -7,10 +7,16 @@
 """KTH Permissions."""
 
 from .generators import DisableIf, DisableIfReadOnly
-from .policies import KTHCommunitiesPermissionPolicy
+from .policies import (
+    KTHCommunitiesPermissionPolicy,
+    KTHRecordPermissionPolicy,
+    KTHRequestsPermissionPolicy,
+)
 
 __all__ = (
     "KTHCommunitiesPermissionPolicy",
+    "KTHRecordPermissionPolicy",
+    "KTHRequestsPermissionPolicy",
     "DisableIfReadOnly",
     "DisableIf",
 )

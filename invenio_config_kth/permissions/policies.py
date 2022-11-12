@@ -6,7 +6,11 @@
 # modify it under the terms of the MIT License; see LICENSE file details.
 
 from invenio_communities.permissions import CommunityPermissionPolicy
+from invenio_rdm_records.services import RDMRecordPermissionPolicy
 from invenio_records_permissions.generators import SystemProcess
+from invenio_requests.services.permissions import (
+    PermissionPolicy as RequestsPermissionPolicy,
+)
 
 from .generators import Administration, CommunityManager, DisableIfReadOnly
 
@@ -14,6 +18,7 @@ from .generators import Administration, CommunityManager, DisableIfReadOnly
 class KTHCommunitiesPermissionPolicy(CommunityPermissionPolicy):
     """Communities permission policy of KTH."""
 
+    # current state: invenio-communities v3.2.3
     # fmt: off
     # can create Should replace all
     can_create =           [Administration(), CommunityManager(), SystemProcess(), DisableIfReadOnly()]  # noqa
@@ -33,3 +38,31 @@ class KTHCommunitiesPermissionPolicy(CommunityPermissionPolicy):
     can_featured_update     = CommunityPermissionPolicy.can_featured_update     + [DisableIfReadOnly()]  # noqa
     can_featured_delete     = CommunityPermissionPolicy.can_featured_delete     + [DisableIfReadOnly()]  # noqa
     # fmt: on
+
+
+class KTHRecordPermissionPolicy(RDMRecordPermissionPolicy):
+    """Record permission policy of KTH.
+    Access control configuration for records.
+
+    Note that even if the array is empty, the invenio_access Permission class
+    always adds the ``superuser-access``, so admins will always be allowed.
+    """
+
+    # current state: invenio-rdm-records v1.0.1
+    can_publish = [
+        Administration(),
+        CommunityManager(),
+        SystemProcess(),
+        DisableIfReadOnly(),
+    ]
+
+
+class KTHRequestsPermissionPolicy(RequestsPermissionPolicy):
+    """Requests permission policy of KTH."""
+
+    # disable write operations if the system is in read-only mode
+    #
+    # current state: invenio-requests v1.0.2
+
+    # fmt: off
+    can_create         = RequestsPermissionPolicy.can_create         + [DisableIfReadOnly()]

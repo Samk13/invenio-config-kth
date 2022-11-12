@@ -7,10 +7,22 @@
 
 from flask_babelex import gettext as _
 
+from .permissions import KTHRecordPermissionPolicy, KTHRequestsPermissionPolicy
+
 # KTH Invenio config
 # =================
 
 CONFIG_KTH_READ_ONLY_MODE = False
+
+
+# Invenio-Records
+# ================
+RDM_PERMISSION_POLICY = KTHRecordPermissionPolicy
+
+
+# Invenio-Requests
+# ================
+REQUESTS_PERMISSION_POLICY = KTHRequestsPermissionPolicy
 
 
 # Invenio-Mail
