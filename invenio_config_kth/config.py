@@ -24,7 +24,7 @@ RDM_PERMISSION_POLICY = KTHRecordPermissionPolicy
 # ================
 REQUESTS_PERMISSION_POLICY = KTHRequestsPermissionPolicy
 
-
+# SQLALCHEMY_ECHO = True
 # Invenio-Mail
 # ============
 

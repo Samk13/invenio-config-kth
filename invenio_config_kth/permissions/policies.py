@@ -49,12 +49,8 @@ class KTHRecordPermissionPolicy(RDMRecordPermissionPolicy):
     """
 
     # current state: invenio-rdm-records v1.0.1
-    can_publish = [
-        Administration(),
-        CommunityManager(),
-        SystemProcess(),
-        DisableIfReadOnly(),
-    ]
+    # fmt: off
+    can_publish = [Administration(), CommunityManager(), SystemProcess(), DisableIfReadOnly()]
 
 
 class KTHRequestsPermissionPolicy(RequestsPermissionPolicy):
