@@ -6,13 +6,46 @@
 # modify it under the terms of the MIT License; see LICENSE file details.
 from flask import current_app
 from flask_principal import RoleNeed
+
+# from flask_resources import HTTPJSONException, create_error_handler
 from invenio_access import action_factory
 from invenio_access.permissions import any_user
 from invenio_records_permissions.generators import Generator
 
+# from invenio_records_resources.resources import RecordResourceConfig
+# from invenio_records_resources.resources.errors import ErrorHandlersMixin
+
 administration_access_action = action_factory("administration-access")
 
+# class CommunityError(Exception):
+#     """Base exception for community errors."""
+# class PermissionDeniedError(CommunityError):
+#     """The provided set spec does not exist."""
 
+#     def __init__(self, query_arguments):
+#         """Initialise error."""
+#         super().__init__("A featured community entry with {q} does not exist.".format(q=query_arguments)
+#         )
+
+# error_handlers = RecordResourceConfig.error_handlers.copy()
+# error_handlers.update(
+#     {
+#         PermissionDeniedError: create_error_handler(
+#             lambda e: HTTPJSONException(
+#                 code=403,
+#                 description=f"This is a new error message: {e}",
+#             )
+#         )
+#     }
+# )
+# class KTHErrorHandlersMixin(ErrorHandlersMixin):
+#     """Mixin to define common error handlers."""
+#     ErrorHandlersMixin.error_handlers["PermissionDeniedError"] = create_error_handler(
+#                 HTTPJSONException(
+#                     code=403,
+#                     description="Permission denied.🐍",
+#                 )
+#             )
 class Administration(Generator):
     """Allows administration-access."""
 
