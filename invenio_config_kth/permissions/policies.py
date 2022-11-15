@@ -8,10 +8,10 @@
 from invenio_communities.permissions import CommunityPermissionPolicy
 from invenio_rdm_records.services import RDMRecordPermissionPolicy
 from invenio_records_permissions.generators import SystemProcess
+from invenio_requests.services.permissions import (
+    PermissionPolicy as RequestsPermissionPolicy,
+)
 
-# from invenio_requests.services.permissions import (
-#     PermissionPolicy as RequestsPermissionPolicy,
-# )
 from .generators import Administration, CommunityManager, DisableIfReadOnly
 
 
@@ -49,18 +49,21 @@ class KTHRecordPermissionPolicy(RDMRecordPermissionPolicy):
     """
 
     # current state: invenio-rdm-records v1.0.1
+
     # can_manage[1] -> CommunityAction("curate")
     # This will enable curators to publish records
+
     # fmt: off
     can_publish = [RDMRecordPermissionPolicy.can_manage[1]] + [Administration(), CommunityManager(), SystemProcess(), DisableIfReadOnly()]
+    # fmt: on
 
 
-# class KTHRequestsPermissionPolicy(RequestsPermissionPolicy):
-#     """Requests permission policy of KTH."""
+class KTHRequestsPermissionPolicy(RequestsPermissionPolicy):
+    """Requests permission policy of KTH."""
 
-#     # disable write operations if the system is in read-only mode
+    # disable write operations if the system is in read-only mode
+    # current state: invenio-requests v1.0.2
 
-#     # current state: invenio-requests v1.0.2
-
-#     # fmt: off
-#     can_create         = RequestsPermissionPolicy.can_create         + [DisableIfReadOnly()]
+    # fmt: off
+    can_create         = RequestsPermissionPolicy.can_create         + [DisableIfReadOnly()]
+    # fmt: on

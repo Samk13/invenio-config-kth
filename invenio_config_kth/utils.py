@@ -32,6 +32,6 @@ def get_user(identifier):
 
 
 def check_user_email_for_kth(user):
-    """Check if the user's email belongs to TU Wien (but not as a student)."""
+    """Check if the user's email belongs to KTH (but not as a student)."""
     domain = user.email.split("@")[-1].lower()
     return domain.endswith("kth.se") and "student" not in domain

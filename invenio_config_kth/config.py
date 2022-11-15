@@ -24,9 +24,11 @@ RDM_PERMISSION_POLICY = KTHRecordPermissionPolicy
 # ================
 REQUESTS_PERMISSION_POLICY = KTHRequestsPermissionPolicy
 
-# SQLALCHEMY_ECHO = True
 # Invenio-Mail
 # ============
 
 SECURITY_EMAIL_SUBJECT_REGISTER = _("Welcome to KTH RDM! 🎉")
 """Email subject for account registration emails."""
+
+SQLALCHEMY_ECHO = False
+"""Enable to see all SQL queries."""

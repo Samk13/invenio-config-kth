@@ -20,7 +20,7 @@ def override_communities_permissions(state):
     communities = app.extensions.get("invenio-communities", None)
     assert communities is not None
 
-    # override the permission policy class for all communities services
+    # Override the permission policy class for all communities services
     svc = communities.service
     svc.config.permission_policy_cls = KTHCommunitiesPermissionPolicy
     svc.files.config.permission_policy_cls = KTHCommunitiesPermissionPolicy
