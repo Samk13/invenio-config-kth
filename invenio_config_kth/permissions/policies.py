@@ -20,7 +20,7 @@ class KTHCommunitiesPermissionPolicy(CommunityPermissionPolicy):
 
     # current state: invenio-communities v3.2.3
     # fmt: off
-    # can create Should replace all
+    # can create Should replace all needs
     can_create =           [Administration(), CommunityManager(), SystemProcess(), DisableIfReadOnly()]  # noqa
     can_update              = CommunityPermissionPolicy.can_update              + [DisableIfReadOnly()]  # noqa
     can_delete              = CommunityPermissionPolicy.can_delete              + [DisableIfReadOnly()]  # noqa
