@@ -9,7 +9,7 @@
 from . import config
 
 
-class InvenioConfigKTH(object):
+class InvenioConfigKTH:
     """Invenio-Config-KTH extension."""
 
     def __init__(self, app=None):

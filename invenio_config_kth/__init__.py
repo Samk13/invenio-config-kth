@@ -5,6 +5,7 @@
 # invenio-config-kth is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
 """Invenio module contain customization for KTH."""
-
+from .ext import InvenioConfigKTH
 
 __version__ = "1.0.0"
+__all__ = ("InvenioConfigKTH",)

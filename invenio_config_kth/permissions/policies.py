@@ -42,8 +42,8 @@ class KTHCommunitiesPermissionPolicy(CommunityPermissionPolicy):
 
 class KTHRecordPermissionPolicy(RDMRecordPermissionPolicy):
     """Record permission policy of KTH.
-    Access control configuration for records.
 
+    Access control configuration for records.
     Note that even if the array is empty, the invenio_access Permission class
     always adds the ``superuser-access``, so admins will always be allowed.
     """
