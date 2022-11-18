@@ -18,15 +18,10 @@ install-pipenv: # Install py dependencies using pipenv
 test: # Run tests
 	@bash run-tests.sh
 
-# Packaging
-install-package-tools-pipenv: # Install twine using pipenv
-	@pipenv install twine
-
-install-package-tools: # Install twine
-	@pip install twine
+# Packagin
+package-create: # Package to tar.gz file for uploading to pypi
+	@python setup.py sdist
 
 package-check: # Check package if it pass pypi tests
 	@twine check dist/*
 
-package-create: # Package to tar.gz file for uploading to pypi
-	@python setup.py sdist
