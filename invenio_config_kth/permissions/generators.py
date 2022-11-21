@@ -31,7 +31,10 @@ class CommunityManager(Generator):
 
     def needs(self, record=None, **kwargs):
         """Enabling Needs."""
-        return [RoleNeed("community-manager")]
+        role_name = current_app.config.get(
+            "CONFIG_KTH_COMMUNITY_MANAGER_ROLE", "community-manager"
+        )
+        return [RoleNeed(role_name)]
 
 
 class DisableIf(Generator):
