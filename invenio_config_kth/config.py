@@ -10,7 +10,7 @@ from .permissions import KTHRecordPermissionPolicy, KTHRequestsPermissionPolicy
 
 # KTH Invenio config
 # =================
-CONFIG_KTH_COMMUNITY_MANAGER_ROLE = "community-admin"
+CONFIG_KTH_COMMUNITY_MANAGER_ROLE = "community-manager"
 CONFIG_KTH_READ_ONLY_MODE = False
 
 
