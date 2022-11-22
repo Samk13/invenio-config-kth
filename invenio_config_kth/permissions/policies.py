@@ -88,6 +88,4 @@ class KTHRequestsPermissionPolicy(RequestsPermissionPolicy):
     can_update         = RequestsPermissionPolicy.can_update         + [DisableIfReadOnly()]
     can_delete         = RequestsPermissionPolicy.can_delete         + [DisableIfReadOnly()]
     can_update_files   = RequestsPermissionPolicy.can_update_files   + [DisableIfReadOnly()]
-    can_update_comment = RequestsPermissionPolicy.can_update_comment + [DisableIfReadOnly()]
-    can_create_comment = RequestsPermissionPolicy.can_create_comment + [DisableIfReadOnly()]
     # fmt: on
