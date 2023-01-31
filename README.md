@@ -1,4 +1,12 @@
 # invenio-config-kth
+
+## Usage
+After installation, you are ready to go:
+- Create new communities will be restricted to users with role "community-manager"
+- Publishing records will be restricted to community admins (Curator, Manager, Owner)
+- you can switch new creation to off if you turn CONFIG_KTH_READ_ONLY_MODE = True
+
+
 ## Installation
 
 From your instance active venv:
@@ -25,12 +33,6 @@ Or turn the read only mode:
 CONFIG_KTH_READ_ONLY_MODE = False
 ```
 
-## Usage
-After installation, you are ready to go:
-- Create new communities will be restricted to users with role "community-manager"
-- Publishing records will be restricted to community admins (Curator, Manager, Owner)
-- Only super users can publish records without selecting a community.
-- you can switch new creation to off if you turn
 ## Maintainers
 
 ### Setup dev env
