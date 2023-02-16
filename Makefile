@@ -20,8 +20,13 @@ test: # Run tests
 
 # Packagin
 package-create: # Package to tar.gz file for uploading to pypi
+	rm -rf dist
+	./increment_version.sh invenio_config_kth/__init__.py $(ARG)
 	@python setup.py sdist
+	@twine check dist/*
 
 package-check: # Check package if it pass pypi tests
 	@twine check dist/*
 
+package-upload: # upload to pypi after prompting your user and pass
+	twine upload -u $(USER) -p $(PASS) dist/* --verbose

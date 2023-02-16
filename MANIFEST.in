@@ -2,9 +2,9 @@ include *.md
 include *.sh
 include *.txt
 include *.py
-include license
-include .pylintrc
+include LICENSE
 include Makefile
+include .pylintrc
 include .editorconfig
 recursive-include invenio_config_kth *.csv
 recursive-include invenio_config_kth *.py
