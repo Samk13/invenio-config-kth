@@ -7,5 +7,5 @@
 """Invenio module contain customization for KTH."""
 from .ext import InvenioConfigKTH
 
-__version__ = "1.2.6"
+__version__ = "1.2.8"
 __all__ = ("__version__", "InvenioConfigKTH")

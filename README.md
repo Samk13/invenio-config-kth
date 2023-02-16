@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/github/license/front-matter/talbot?logo=MIT)
+
 # invenio-config-kth
 
 ## Usage
@@ -47,10 +49,31 @@ make test
 make test
 ```
 > When running tests you will get a warning from [black formatter](https://github.com/shopkeep/pytest-black/issues/55), should bump pytest-black version when it's done
+
 ## Upload to pypi
 
-```bash
-make package # this will zip the package into dist dir
-make package-check # verify if the package pass twine checks
-twine upload -u <USERNAME> -p <PASSWORD> --repository-url https://test.pypi.org/legacy/ dist/* --verbose
+```console
+make package-create
+make package-upload USER="" PASS=""
 ```
+
+- `make package-create` command will:
+1. remove old dist folder
+2. auto increment package version
+3. zip the package into dist dir
+4. check if the package pass twin checks
+
+> You can change version increment to major or minor by adding ARG:
+
+- `make package-create ARG="-ma"` increment major version
+
+- `make package-create ARG="-mi"` increment minor version
+
+- `make package-create` increment patch version
+
+- `make package-check` # verify if the package pass twine checks
+
+- `make package-upload USER="" PASS=""` # will  and upload to pypi will prompt for username and pass
+
+or manually:
+twine upload -u <USERNAME> -p <PASSWORD> dist/* --verbose
